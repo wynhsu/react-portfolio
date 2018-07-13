@@ -1,0 +1,22 @@
+.card {
+    border: 0!important;
+    max-width: 80vw!important;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+#spacing {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 6em;
+}
+
+@media (min-width: 768px) {
+    #spacing {
+        padding-left: 4em;
+        padding-right: 4em;
+        padding-top: 8em;
+    }
+}

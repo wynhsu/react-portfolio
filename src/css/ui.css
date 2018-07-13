@@ -1,0 +1,56 @@
+.font-weight-light {
+    margin-bottom: 1.5rem!important;
+}
+
+p.text-center {
+    margin-bottom: 0!important;
+}
+
+img {
+    max-width: 100%;;
+}
+
+.caption {
+    font-size: .8em;
+}
+
+#splash {
+    max-height: 100%;
+}
+
+.header {
+    padding-top: 8em;
+    padding-bottom: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.footer {
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.gutter {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#quote {
+    padding-top: 8em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.spacing {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 4em;
+}
+
+@media (min-width:768px) {
+    .spacing {
+        padding-left: 8em;
+        padding-right: 8em;
+        padding-top: 4em;
+    }
+}

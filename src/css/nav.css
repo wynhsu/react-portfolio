@@ -1,0 +1,29 @@
+.navbar {
+    padding: .5rem 1.5rem!important;
+    background-color: #ffffff;
+}
+
+.shadow {
+    box-shadow: 0 4px 4px rgba(0,0,0,.25)!important;
+}
+
+.nav-link img {
+    width: 80%;
+}
+
+.nav-link .dark {
+    display: none;
+}
+
+.nav-link:hover .light,
+.nav-link:active .light{
+  display: none;
+}
+.nav-link:hover .dark,
+.nav-link:active .dark{
+  display: block;
+}
+
+div.show img {
+    width: 10%;
+}
