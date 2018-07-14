@@ -80,7 +80,7 @@ export default class Breez extends React.Component {
                                 </div>
                             </div>
                             <div className='col-md-4'>
-                                <img src="../public/img/breez/ideation.jpg" alt="ideation" />
+                                <img src="./img/breez/ideation.jpg" alt="ideation" />
                                 <p className='caption'>We began our design process with an affinity diagram of what our team like or disliked about current mobile environments on the market.</p>
                             </div>
                         </div>
@@ -113,10 +113,10 @@ export default class Breez extends React.Component {
                             <div className='col-md-9'>
                                 <h3 className='font-weight-light'>System and Gestures</h3>
                                 <p>Our intention was to design for maximum comfort and functionality, through the utilization of natural human motions and gestures. We adopted this heat map illustrating the reachable zones on screen during one-hand use as a core focus, and designed our interactions around the 'natural' zones on screen.</p>
-                                <img src="../public/img/breez/gestures.svg" alt="gestures" />
+                                <img src="./img/breez/gestures.svg" alt="gestures" />
                             </div>
                             <div className='col-md-3'>
-                                <img src="../public/img/breez/heat_map.png" alt="heatmap" />
+                                <img src="./img/breez/heat_map.png" alt="heatmap" />
                             </div>
                         </div>
                     </div>
@@ -124,18 +124,18 @@ export default class Breez extends React.Component {
                         <h3 className='font-weight-light'>Competitive Analysis</h3>
                         <div className='row'>
                             <div className='col-md-6'>
-                                <img src="../public/img/breez/netflixui.jpg" alt="netflix" />
-                                <img src="../public/img/breez/appletvui.png" alt="appletv" />
+                                <img src="./img/breez/netflixui.jpg" alt="netflix" />
+                                <img src="./img/breez/appletvui.png" alt="appletv" />
                                 <p className='caption'>The Assistive Reach feature of our design was inspired by the selection indicators from both Apple TV and Netflix. Using either highlighting or change in size, the two allow users to navigate among items similar to a cursor.</p>
                             </div>
                             <div className='col-md-6'>
-                                <img className='pt-5 pb-5' src="../public/img/breez/iphone.png" alt="iphone" />
-                                <img className='pb-5' src="../public/img/breez/android.png" alt="android" />
+                                <img className='pt-5 pb-5' src="./img/breez/iphone.png" alt="iphone" />
+                                <img className='pb-5' src="./img/breez/android.png" alt="android" />
                                 <p className='caption'>Our OS global controls were inspired by qualities that can be found from both Android and iPhones. Combining the features we found best on both devices, we were able to create for something that resonated with our design language.</p>
                             </div>
                         </div>
                     </div>
-                    <Image title="Concept Wireframes" link="../public/img/breez/wireframes.svg" descr="wireframes" />
+                    <Image title="Concept Wireframes" link="./img/breez/wireframes.svg" descr="wireframes" />
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Process and Iteration</h3>
                         <div className='row'>
@@ -144,11 +144,11 @@ export default class Breez extends React.Component {
                                 <p>Inspired by Google's Material Design, our team decided to incorporate many of what we thought were the best components into Breez. We utilized Material's color palette, as well as its flat design look and feel. Additionally, we drew inspiration from the floating action button present in many of Google's applications. The Action Orbiter - as we call it, would provide prominent functionalities on the screen and allows users to easily access them with one hand.</p>
                             </div>
                             <div className='col-md-6'>
-                                <img src="../public/img/breez/orbiter.png" alt="orbiter" />
+                                <img src="./img/breez/orbiter.png" alt="orbiter" />
                             </div>
                         </div>
                         <div>
-                            <img src="../public/img/breez/iteration.png" alt="iteration"/>
+                            <img src="./img/breez/iteration.png" alt="iteration"/>
                         </div>
                         <p>Through our iterations, we would come to eventually abandon the idea of the orbiter. This decision was made due to many factors regarding feasibility and time constraint. It was illuminated to us during critique by professional designers that while the Action Orbiter provided access to features during one hand usage, it was at the cost of keeping said features hidden from the users. In addition to being hidden, the features within the orbiter differed depending on the app, which added another layer of complexity as it left users guessing what options were possible on each screen.</p>
                     </div>
@@ -156,15 +156,15 @@ export default class Breez extends React.Component {
                         <h3 className='font-weight-light'>Final Screens</h3>
                         <div className='pb-4'>
                             <h5 className='text-center'>Systems</h5>
-                            <img src="../public/img/breez/systems.png" alt="systems"/>
+                            <img src="./img/breez/systems.png" alt="systems"/>
                         </div>
                         <div className='pb-4'>
                             <h5 className='text-center'>Communication &amp; Productivity</h5>
-                            <img src="../public/img/breez/combined.png" alt="communication productivity"/>
+                            <img src="./img/breez/combined.png" alt="communication productivity"/>
                         </div>
                         <div className='pb-4'>
                             <h5 className='text-center'>Media</h5>
-                            <img src="../public/img/breez/media.png" alt="media"/>
+                            <img src="./img/breez/media.png" alt="media"/>
                         </div>
                         <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
                     </div>

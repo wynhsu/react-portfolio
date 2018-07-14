@@ -79,7 +79,7 @@ export default class Foodie extends React.Component {
                         </div>
                     </div>
                     <div className='pt-5'>
-                        <img od='splash' src='../public/img/foodie/splash.png' alt="splash" />
+                        <img od='splash' src='./img/foodie/splash.png' alt="splash" />
                     </div>
                     <div className='spacing container'>
                         <div className='row'>
@@ -104,20 +104,20 @@ export default class Foodie extends React.Component {
                         <h3 className='font-weight-light'>Information Personas</h3>
                         <Carousel>
                             <div>
-                                <img src="../public/img/foodie/valerie.png" alt="persona1" />
+                                <img src="./img/foodie/valerie.png" alt="persona1" />
                             </div>
                             <div>
-                                <img src="../public/img/foodie/deborah.png" alt="persona1" />
+                                <img src="./img/foodie/deborah.png" alt="persona1" />
                             </div>
                             <div>
-                                <img src="../public/img/foodie/riz.png" alt="persona1" />
+                                <img src="./img/foodie/riz.png" alt="persona1" />
                             </div>
                         </Carousel>
                     </div>
-                    <Image title='User Flow' link='../public/img/foodie/user_flow.png' descr='user_flow' />
-                    <Image title='Site Map' link='../public/img/foodie/sitemap.png' descr='site_map' />
-                    <Image title='Wireframes' link='../public/img/foodie/wireframe.png' descr='wireframes' />
-                    <Image title='Final Screens' link='../public/img/foodie/final.png' descr='hi-fis' />
+                    <Image title='User Flow' link='./img/foodie/user_flow.png' descr='user_flow' />
+                    <Image title='Site Map' link='./img/foodie/sitemap.png' descr='site_map' />
+                    <Image title='Wireframes' link='./img/foodie/wireframe.png' descr='wireframes' />
+                    <Image title='Final Screens' link='./img/foodie/final.png' descr='hi-fis' />
                     <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
                 </div>
             </div>

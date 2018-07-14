@@ -70,17 +70,17 @@ export default class WeEat extends React.Component {
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Discovery</h3>
                         <p>With increasing diversity of people in the Greater Seattle area, there is an increasing need to introduce better culturally diverse experiences similar to other global cities like San Francisco or New York Through our team’s experience, we realized that most ethnic restaurants in the city did not offer an wholesome authentic food experience. Instead of replying on commercial restaurants, we sought to utilize the skills and expertise of passionate home chefs to provide these experiences.</p>
-                        <img className='pt-4' src="../public/img/weEat/benefits.png" alt="features" />
+                        <img className='pt-4' src="./img/weEat/benefits.png" alt="features" />
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>User Research</h3>
                         <div className='row'>
                             <div className='col-md-6 gutter'>
-                                <img src="../public/img/weEat/user_research_i.svg" alt="stats" />
+                                <img src="./img/weEat/user_research_i.svg" alt="stats" />
                                 <p>of users surveyed in the Greater Seattle area attested that finding authentic cuisine was moderate to very difficult</p>
                             </div>
                             <div className='col-md-6 gutter'>
-                                <img src="../public/img/weEat/user_research_ii.svg" alt="stats" />
+                                <img src="./img/weEat/user_research_ii.svg" alt="stats" />
                                 <p>of local home chefs surveyed said they enjoyed cooking for others and are passionate about it</p>
                             </div>
                         </div>
@@ -91,15 +91,15 @@ export default class WeEat extends React.Component {
                         <h3 className='font-weight-light'>Competitive Analysis</h3>
                         <div className='row'>
                             <div className='col-md-3'>
-                                <img src="../public/img/weEat/bonappetour_i.jpg" alt="bonapp" />
+                                <img src="./img/weEat/bonappetour_i.jpg" alt="bonapp" />
                             </div>
                             <div className='col-md-3'>
-                                <img src="../public/img/weEat/bonappetour_ii.jpg" alt="bonapp" />
+                                <img src="./img/weEat/bonappetour_ii.jpg" alt="bonapp" />
                             </div>
                             <div className='col-md-3'>
-                                <img src="../public/img/weEat/eatwith.jpg" alt="eatwith" /></div>
+                                <img src="./img/weEat/eatwith.jpg" alt="eatwith" /></div>
                             <div className='col-md-3'>
-                                <img src="../public/img/weEat/yumso.jpg" alt="yumso" />
+                                <img src="./img/weEat/yumso.jpg" alt="yumso" />
                             </div>
                         </div>
                         <div className='row'>
@@ -115,20 +115,20 @@ export default class WeEat extends React.Component {
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>User Flow</h3>
                         <img className='d-block ml-auto mr-auto pb-4'
-                            src="../public/img/weEat/user_flow_user.png" alt="user_flow" />
+                            src="./img/weEat/user_flow_user.png" alt="user_flow" />
                         <p className='caption text-center'>User Flow for Food Lovers</p>
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Service Map</h3>
                         <img className='d-block ml-auto mr-auto pb-4'
-                            src="../public/img/weEat/service_map_chef.png" alt="service_map" />
+                            src="./img/weEat/service_map_chef.png" alt="service_map" />
                         <p className='caption text-center'>Service Map for Home Chefs</p>
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Wireframes</h3>
                         <img className='d-block ml-auto mr-auto pb-4'
-                            src="../public/img/weEat/sketch.png" alt="sketches" />
-                        <img src="../public/img/weEat/wireframes.png" alt="wireframes" />
+                            src="./img/weEat/sketch.png" alt="sketches" />
+                        <img src="./img/weEat/wireframes.png" alt="wireframes" />
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Usability Testing</h3>
@@ -138,7 +138,7 @@ export default class WeEat extends React.Component {
                                 <p>We were able to identify a handful of issues regarding the app’s details and flow. Aside from functional errors with the prototype, the general consensus was that the app currently felt too similar to other restaurant finding apps already on the market. Users expected many of the same functionality that other well known apps such as Yelp provided. Users did not picked up on the fact that events created by individual home chefs, and not commercial restaurants.</p>
                             </div>
                             <div className='col-md-4'>
-                                <img src="../public/img/weEat/usability_i.jpg" alt="usability" />
+                                <img src="./img/weEat/usability_i.jpg" alt="usability" />
                             </div>
                         </div>
                         <div className='row'>
@@ -147,11 +147,11 @@ export default class WeEat extends React.Component {
                                 <p>Many users had difficulty understanding the navigation, and were unsure of where to go to complete certain tasks. Each had their own difficulty understanding the certain components, and were overwhelmed with the amount of information presented. Our taxonomy was unclear and participants had a hard time distinguishing an “event” from a “place”. We were able to find other small things that were unclear to the users, such as extra features that users did not find necessary in the application.</p>
                             </div>
                             <div className='col-md-4'>
-                                <img src="../public/img/weEat/usability_ii.jpg" alt="usability" />
+                                <img src="./img/weEat/usability_ii.jpg" alt="usability" />
                             </div>
                         </div>
                     </div>
-                    <Image title="Final Screens" link="../public/img/weEat/final.png" descr="hi-fi" />
+                    <Image title="Final Screens" link="./img/weEat/final.png" descr="hi-fi" />
                     <div className='spacing container pb-4'>
                         <h3 className='font-weight-light'>Reflection</h3>
                         <p>Multiple iterations of usability testing reinforced the importance of validating the need for a product with potential users. It was extremely helpful to work closely with users each sprint and adjusting designs based off the feedback we received. Our team also learned the values of working in a large group setting and understanding each other’s differences of opinion in design. Achieving the perfect balance between incorporating good ideas while tactfully declining those that didn’t quite work out, allowed us to create a final product that feels consistent and complete.</p>
