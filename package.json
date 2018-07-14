@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages-deploy",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "test": "react-scripts test --env=jsdom",
@@ -21,6 +21,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
+    "gh-pages": "^1.2.0",
     "gh-pages-deploy": "^0.5.0",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.21.0",
