@@ -7,9 +7,9 @@ export default {
         About: '/about'
     },
     images: {
-        breez: "./public/img/breez/breez_banner.svg",
-        weEat: "./public/img/weEat/weEat_banner.svg",
-        wwf: "./public/img/wwf_banner.png",
-        foodie: './public/img/foodie/ff_banner.png'
+        breez: "./img/breez/breez_banner.svg",
+        weEat: "./img/weEat/weEat_banner.svg",
+        wwf: "./img/wwf_banner.png",
+        foodie: './img/foodie/ff_banner.png'
     }
 }
