@@ -4,6 +4,10 @@ import constants from '../include/constants.js';
 import '../css/home.css';
 
 export default class Home extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     handleOnClick(c) {
         this.props.history.push(c);
     }

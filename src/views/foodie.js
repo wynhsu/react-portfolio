@@ -8,6 +8,10 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
 export default class Foodie extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         const {
             timeline = ["INFO 330: Information Architecture", "January - March, 2018", "10 weeks"],

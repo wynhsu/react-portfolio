@@ -1,9 +1,14 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
+import Image from '../components/image.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
 export default class Breez extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         const {
             timeline = ["INFO 365: Mobile Application Design", "September - December, 2017", "10 weeks"],
@@ -130,10 +135,7 @@ export default class Breez extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className='spacing container'>
-                        <h3 className='font-weight-light'>Concept Wireframes</h3>
-                        <img src="../public/img/breez/wireframes.svg" alt="wireframes" />
-                    </div>
+                    <Image title="Concept Wireframes" link="../public/img/breez/wireframes.svg" descr="wireframes" />
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Process and Iteration</h3>
                         <div className='row'>

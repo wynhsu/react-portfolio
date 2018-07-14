@@ -4,6 +4,10 @@ import constants from '../include/constants.js';
 import '../css/ui.css';
 
 export default class About extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     render() {
         return (
             <div>

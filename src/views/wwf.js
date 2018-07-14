@@ -5,6 +5,10 @@ import '../css/ui.css';
 import '../css/wwf.css';
 
 export default class WWF extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+    
     render() {
         const {
             timeline = ["INFO 343: Client-Side Web Development", "November - December, 2018", "3 weeks"],
