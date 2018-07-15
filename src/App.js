@@ -6,6 +6,7 @@ import WeEat from './views/weeat.js';
 import WWF from './views/wwf.js';
 import Foodie from './views/foodie.js';
 import About from './views/about.js';
+import Navbar from './components/navbar.js';
 import constants from './include/constants.js';
 import './App.css';
 

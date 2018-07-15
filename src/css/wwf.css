@@ -32,3 +32,8 @@
 .glass:focus {
     background: linear-gradient(#f4c439,#f9e077);  
 }
+
+.glass a {
+    text-decoration: none;
+    color: #4c1900;
+}

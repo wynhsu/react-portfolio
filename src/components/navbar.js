@@ -5,6 +5,12 @@ import constants from '../include/constants.js';
 import '../css/nav.css';
 
 export default class Navbar extends React.Component {
+    changeActive(e) {
+        let active = document.querySelector('.active');
+        active.classList.remove('active');
+        e.classList.add('active');
+    }
+
     render() {
         return (
             <nav className='navbar navbar-expand-md fixed-top navbar-light shadow'>
@@ -21,18 +27,12 @@ export default class Navbar extends React.Component {
 
                 <div className="collapse navbar-collapse"
                     id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">Work <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to={constants.routes.About}>About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" 
-                                href="./wynston_hsu.pdf" target='_blank'>Resume</a>
-                        </li>
-                    </ul>
+                    <div className="navbar-nav mr-auto">
+                            <a className="nav-item nav-link active" href="#" onCick={(e)=> this.changeActive(e)}>Work</a>
+                            <Link className="nav-item nav-link" to={constants.routes.About} onCick={(e)=> this.changeActive(e)}>About</Link>
+                            <a className="nav-item nav-link" 
+                                href="./wynston_hsu.pdf" target='_blank' onCick={(e)=> this.changeActive(e)}>Resume</a>
+                    </div>
                     <ul className="navbar-nav">
                         <Navitem link="mailto:wynhsu@uw.edu"
                             light="./img/contact/email-light.svg" 
