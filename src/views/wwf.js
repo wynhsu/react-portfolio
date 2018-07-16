@@ -22,7 +22,8 @@ export default class WWF extends React.Component {
                 <div>
                     <div className='header'>
                         <h3 className='text-center'>Words With Friendz</h3>
-                        <button className='btn d-block mr-auto ml-auto glass'><a href='https://wynhsu.github.io/words-with-friends/#/'>Play!</a></button>  
+                        <a className='btn mr-auto ml-auto glass' role="button"
+                            href='https://wynhsu.github.io/words-with-friends/#/'>Play!</a>  
                     </div>
                     <div>
                         <img src={constants.images.wwf} alt="banner" />
