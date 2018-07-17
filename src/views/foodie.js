@@ -9,7 +9,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 export default class Foodie extends React.Component {
     componentDidMount() {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -27,7 +27,7 @@ export default class Foodie extends React.Component {
                         <h3 className='text-center'>Foodie Fanatic</h3>
                         <p className='text-center'>Bridging the gap between users and company through culinary satisfaction</p>
                     </div>
-                    <div>
+                    <div className='banner'>
                         <img src={constants.images.foodie} alt="banner" />
                     </div>
                     <div className='spacing container'>
@@ -118,6 +118,9 @@ export default class Foodie extends React.Component {
                     <Image title='Site Map' link='./img/foodie/sitemap.png' descr='site_map' />
                     <Image title='Wireframes' link='./img/foodie/wireframe.png' descr='wireframes' />
                     <Image title='Final Screens' link='./img/foodie/final.png' descr='hi-fis' />
+                    <div className='spacing container'>
+                        <p>Read more in detail on our <a href="./LL_Appendix.pdf" target='_blank'>Appendix</a></p>
+                    </div>
                     <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
                 </div>
             </div>

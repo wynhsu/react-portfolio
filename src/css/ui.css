@@ -31,6 +31,10 @@ img {
     padding-bottom: 4em;
 }
 
+.banner {
+    text-align: center;
+}
+
 .gutter {
     padding-left: 4em;
     padding-right: 4em;

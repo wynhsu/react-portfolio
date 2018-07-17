@@ -34,6 +34,7 @@ export default class Home extends React.Component {
                             onClick={() => this.handleOnClick(constants.routes.Foodie)}>
                             <img src={constants.images.foodie} alt="foodiefanatic" />
                         </button>
+                        <p className='text-center footer pt-4'>&#169;2018 Wynston Hsu. Created with React.js</p>
                     </div>
                 </div>
             </div>

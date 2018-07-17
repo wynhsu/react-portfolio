@@ -23,7 +23,7 @@ export default class Breez extends React.Component {
                         <h3 className='text-center'>Breez Mobile OS</h3>
                         <p className='text-center'>A language inspired by people and in harmony with nature</p>
                     </div>
-                    <div>
+                    <div className='banner'>
                         <img src={constants.images.breez} alt="banner" />
                     </div>
                     <div className='spacing container'>
@@ -43,13 +43,19 @@ export default class Breez extends React.Component {
                             <div className='col-md-4'>
                                 <div className='ml-auto mr-auto'>
                                     <h5 className='text-center'>MEMBERS</h5>
-                                    <a className='text-center d-block' href='https://brentgruenke.com/'>
+                                    <a className='text-center d-block' 
+                                        href='https://brentgruenke.com/' 
+                                        target='_blank'>
                                         Brent Gruenke</a>
                                     <p className='text-center'>Cynthia Richey</p>
-                                    <a className='text-center d-block' href='http://www.eduardorojase.com/'>
+                                    <a className='text-center d-block'  
+                                        href='http://www.eduardorojase.com/' 
+                                        target='_blank'>
                                         Eduardo Rojas</a>
                                     <p className='text-center'>Sangwoo Martin Song</p>
-                                    <a className='text-center d-block' href='https://www.mikeeacker.com'>
+                                    <a className='text-center d-block' 
+                                        href='https://www.mikeeacker.com' 
+                                        target='_blank'>
                                         Mike Eacker</a>
                                 </div>
                             </div>
