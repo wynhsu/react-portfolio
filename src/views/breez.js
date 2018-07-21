@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
 import Image from '../components/image.js';
+import Navbtns from '../components/navbtns.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
@@ -23,6 +24,7 @@ export default class Breez extends React.Component {
                         <h3 className='text-center'>Breez Mobile OS</h3>
                         <p className='text-center'>A language inspired by people and in harmony with nature</p>
                     </div>
+                    <Navbtns />
                     <div className='banner'>
                         <img src={constants.images.breez} alt="banner" />
                     </div>

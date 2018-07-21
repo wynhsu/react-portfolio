@@ -5,10 +5,40 @@ import constants from '../include/constants.js';
 import '../css/nav.css';
 
 export default class Navbar extends React.Component {
-    changeActive(e) {
+    constructor(props) {
+        super(props);
+        this.state = {
+            active: 'Work'
+        }
+    }
+
+    componentDidMount() {
+        this.checkActive();
+    }
+
+    checkActive() {
         let active = document.querySelector('.active');
         active.classList.remove('active');
-        e.classList.add('active');
+        if (this.state.active == 'Work') {
+            let curr = document.querySelector('#work');
+            curr.classList.add('active');
+        } else if (this.state.active == 'About') {
+            let curr = document.querySelector('#about');
+            curr.classList.add('active');
+        } else {
+            let curr = document.querySelector('#resume');
+            curr.classList.add('active');
+        }
+    }
+
+    changeActive(e) {
+        if (e.id == 'work') {
+            this.setState({active: 'Work'});
+        } else if (e.id == 'about') {
+            this.setState({active: 'About'});
+        } else {
+            this.setState({active: 'Resume'});
+        }
     }
 
     render() {
@@ -28,10 +58,15 @@ export default class Navbar extends React.Component {
                 <div className="collapse navbar-collapse"
                     id="navbarSupportedContent">
                     <div className="navbar-nav mr-auto">
-                            <a className="nav-item nav-link active" href="#" onCick={(e)=> this.changeActive(e)}>Work</a>
-                            <Link className="nav-item nav-link" to={constants.routes.About} onCick={(e)=> this.changeActive(e)}>About</Link>
-                            <a className="nav-item nav-link" 
-                                href="./wynston_hsu.pdf" target='_blank' onCick={(e)=> this.changeActive(e)}>Resume</a>
+                            <a id='work' className="nav-item nav-link active" 
+                                href="#" 
+                                onClick={(e)=> this.changeActive(e)}>Work</a>
+                            <Link id='about' className="nav-item nav-link" 
+                                to={constants.routes.About} 
+                                onClick={(e)=> this.changeActive(e)}>About</Link>
+                            <a id='resume' className="nav-item nav-link" 
+                                href="./wynston_hsu.pdf" target='_blank' 
+                                onClick={(e)=> this.changeActive(e)}>Resume</a>
                     </div>
                     <ul className="navbar-nav">
                         <Navitem link="mailto:wynhsu@uw.edu"

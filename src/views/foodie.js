@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
 import Image from '../components/image.js';
+import Navbtns from '../components/navbtns.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
@@ -27,6 +28,7 @@ export default class Foodie extends React.Component {
                         <h3 className='text-center'>Foodie Fanatic</h3>
                         <p className='text-center'>Bridging the gap between users and company through culinary satisfaction</p>
                     </div>
+                    <Navbtns />
                     <div className='banner'>
                         <img src={constants.images.foodie} alt="banner" />
                     </div>
