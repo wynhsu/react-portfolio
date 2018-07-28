@@ -22,7 +22,7 @@ export default class Foodie extends React.Component {
 
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='header'>
                         <h3 className='text-center'>Foodie Fanatic</h3>

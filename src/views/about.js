@@ -11,7 +11,7 @@ export default class About extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={this.props.location.pathname} />
                 <div id='quote'>
                     <div className='spacing'>
                         <h2 className='text-center pb-4'>"If you aren't failing every now and then, you're probably playing it too safe."</h2>

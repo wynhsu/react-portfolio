@@ -19,7 +19,7 @@ export default class WWF extends React.Component {
 
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='header'>
                         <h3 className='text-center'>Words With Friendz</h3>

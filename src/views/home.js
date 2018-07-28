@@ -17,7 +17,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={constants.routes.Work} />
                 <div id='spacing'>
                     <div className='container'>
                         <Card link={constants.images.breez} route={constants.routes.Breez} name={"breez"} />

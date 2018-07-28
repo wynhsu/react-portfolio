@@ -1,5 +1,6 @@
 export default {
     routes: {
+        Work: '/work',
         Breez: '/breezos',
         WeEat: '/weeat',
         WWF: '/wwf',

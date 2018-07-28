@@ -21,7 +21,7 @@ export default class WeEat extends React.Component {
 
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='header'>
                         <h3 className='text-center'>WeEat</h3>

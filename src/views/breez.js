@@ -18,7 +18,7 @@ export default class Breez extends React.Component {
 
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='header'>
                         <h3 className='text-center'>Breez Mobile OS</h3>
