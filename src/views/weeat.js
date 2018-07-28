@@ -24,8 +24,8 @@ export default class WeEat extends React.Component {
                 <Navbar />
                 <div>
                     <div className='header'>
-                        <h3 className='text-center'>Breez Mobile OS</h3>
-                        <p className='text-center'>A language inspired by people and in harmony with nature</p>
+                        <h3 className='text-center'>WeEat</h3>
+                        <p className='text-center'>An easy, convenient way to authentic cuisines provided by experienced local chefs</p>
                     </div>
                     <Navbtns />
                     <div className='banner'>
