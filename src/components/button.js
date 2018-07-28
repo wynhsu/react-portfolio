@@ -3,14 +3,6 @@ import '../css/button.css';
 import { Link } from 'react-router-dom';
 
 export default class Button extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
-    handleOnClick(c) {
-        this.props.history.push(c);
-    }
-
     render() {
         return (
             <div className='p-1'>

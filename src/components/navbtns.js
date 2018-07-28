@@ -4,10 +4,6 @@ import constants from '../include/constants.js';
 import '../css/button.css';
 
 export default class Navbtns extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    
     render() {
         return (
             <div className='btn-drawer'>

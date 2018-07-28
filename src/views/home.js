@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
+import Card from '../components/card.js';
+import { Link } from 'react-router-dom';
 import constants from '../include/constants.js';
 import '../css/home.css';
 
 export default class Home extends React.Component {
     componentDidMount() {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }
 
     handleOnClick(c) {
@@ -18,22 +20,10 @@ export default class Home extends React.Component {
                 <Navbar />
                 <div id='spacing'>
                     <div className='container'>
-                        <button className='card' 
-                            onClick={() => this.handleOnClick(constants.routes.Breez)}>
-                            <img src={constants.images.breez} alt="breez" />
-                        </button>
-                        <button className='card' 
-                            onClick={() => this.handleOnClick(constants.routes.WeEat)}>
-                            <img src={constants.images.weEat} alt="weEat" />
-                        </button>
-                        <button className='card' 
-                            onClick={() => this.handleOnClick(constants.routes.WWF)}>
-                            <img src={constants.images.wwf} alt="wwf" />
-                        </button>
-                        <button className='card' 
-                            onClick={() => this.handleOnClick(constants.routes.Foodie)}>
-                            <img src={constants.images.foodie} alt="foodiefanatic" />
-                        </button>
+                        <Card link={constants.images.breez} route={constants.routes.Breez} name={"breez"} />
+                        <Card link={constants.images.weEat} route={constants.routes.WeEat} name={"weEat"} />
+                        <Card link={constants.images.wwf} route={constants.routes.WWF} name={"wordsWithFriendz"} />
+                        <Card link={constants.images.foodie} route={constants.routes.Foodie} name={"foodieFanatic"} />
                         <p className='text-center footer pt-4'>&#169;2018 Wynston Hsu. Created with React.js</p>
                     </div>
                 </div>

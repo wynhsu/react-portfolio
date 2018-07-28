@@ -172,7 +172,7 @@ export default class WeEat extends React.Component {
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Reflection</h3>
                         <p>Multiple iterations of usability testing reinforced the importance of validating the need for a product with potential users. It was extremely helpful to work closely with users each sprint and adjusting designs based off the feedback we received. Our team also learned the values of working in a large group setting and understanding each other’s differences of opinion in design. Achieving the perfect balance between incorporating good ideas while tactfully declining those that didn’t quite work out, allowed us to create a final product that feels consistent and complete.</p>
-                        <p>Read more in detail on our <a href="./WeEat_CaseStudy.pdf" target='_blank'>Case Study</a></p>
+                        <p>Read more in detail on our <a href="./weeat_casestudy.pdf" target='_blank'>Case Study</a></p>
                     </div>
                     <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
                 </div>

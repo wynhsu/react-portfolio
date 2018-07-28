@@ -121,7 +121,7 @@ export default class Foodie extends React.Component {
                     <Image title='Wireframes' link='./img/foodie/wireframe.png' descr='wireframes' />
                     <Image title='Final Screens' link='./img/foodie/final.png' descr='hi-fis' />
                     <div className='spacing container'>
-                        <p>Read more in detail on our <a href="./LL_Appendix.pdf" target='_blank'>Appendix</a></p>
+                        <p>Read more in detail on our <a href="./ff_appendix.pdf" target='_blank'>Appendix</a></p>
                     </div>
                     <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
                 </div>
