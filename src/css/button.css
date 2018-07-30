@@ -1,0 +1,9 @@
+.btn-drawer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.navbtn:hover {
+    transform: scale(1.25);
+}

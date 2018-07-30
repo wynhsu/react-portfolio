@@ -15,13 +15,13 @@ class App extends Component {
       return (
         <Router>
           <Switch>
-            <Route exact path={'/'} component={Home} />
+            <Route exact path={constants.routes.Work} component={Home} />
             <Route path={constants.routes.Breez} component={Breez} />
             <Route path={constants.routes.WeEat} component={WeEat} />
             <Route path={constants.routes.WWF} component={WWF} />
             <Route path={constants.routes.Foodie} component={Foodie} />
             <Route path={constants.routes.About} component={About} />
-            <Redirect to={'/'} />
+            <Redirect to={constants.routes.Work} />
           </Switch>
         </Router>
       );

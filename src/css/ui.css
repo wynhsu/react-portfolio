@@ -35,17 +35,6 @@ img {
     text-align: center;
 }
 
-.gutter {
-    padding-left: 4em;
-    padding-right: 4em;
-}
-
-#quote {
-    padding-top: 8em;
-    padding-left: 8em;
-    padding-right: 8em;
-}
-
 .spacing {
     padding-left: 4em;
     padding-right: 4em;
@@ -57,5 +46,18 @@ img {
         padding-left: 8em;
         padding-right: 8em;
         padding-top: 4em;
+    }
+}
+
+@media (min-width:992px) {
+    #quote {
+        padding-top: 8em;
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+
+    .gutter {
+        padding-left: 4em;
+        padding-right: 4em;
     }
 }

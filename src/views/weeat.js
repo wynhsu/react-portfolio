@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
+import Navbtns from '../components/navbtns.js';
 import Image from '../components/image.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
+import Iframe from 'react-iframe';
+
 export default class WeEat extends React.Component {
     componentDidMount() {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -18,12 +21,13 @@ export default class WeEat extends React.Component {
 
         return (
             <div>
-                <Navbar />
+                <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='header'>
-                        <h3 className='text-center'>Breez Mobile OS</h3>
-                        <p className='text-center'>A language inspired by people and in harmony with nature</p>
+                        <h3 className='text-center'>WeEat</h3>
+                        <p className='text-center'>An easy, convenient way to authentic cuisines provided by experienced local chefs</p>
                     </div>
+                    <Navbtns />
                     <div className='banner'>
                         <img src={constants.images.weEat} alt="banner" />
                     </div>
@@ -152,10 +156,23 @@ export default class WeEat extends React.Component {
                         </div>
                     </div>
                     <Image title="Final Screens" link="./img/weEat/final.png" descr="hi-fi" />
-                    <div className='spacing container pb-4'>
+                    <div className="spacing container">
+                        <h3 className='font-weight-light'>Prototypes</h3>
+                        <div className='row'>
+                            <div className='pb-4 col-md-6'>
+                                <h5 className='text-center'>Food Lover</h5>
+                                <Iframe className="mr-auto ml-auto" url="https://invis.io/A3N1N20KY2P" height="900px" width="450px" display="block" position="static" />
+                            </div>
+                            <div className='pb-4 col-md-6'>
+                                <h5 className='text-center'>Home Chef</h5>
+                                <Iframe className="mr-auto ml-auto" url="https://invis.io/S6N2M3KF3KV" height="900px" width="450px" display="block" position="static" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='spacing container'>
                         <h3 className='font-weight-light'>Reflection</h3>
                         <p>Multiple iterations of usability testing reinforced the importance of validating the need for a product with potential users. It was extremely helpful to work closely with users each sprint and adjusting designs based off the feedback we received. Our team also learned the values of working in a large group setting and understanding each other’s differences of opinion in design. Achieving the perfect balance between incorporating good ideas while tactfully declining those that didn’t quite work out, allowed us to create a final product that feels consistent and complete.</p>
-                        <p>Read more in detail on our <a href="./WeEat_CaseStudy.pdf" target='_blank'>Case Study</a></p>
+                        <p>Read more in detail on our <a href="./weeat_casestudy.pdf" target='_blank'>Case Study</a></p>
                     </div>
                     <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
                 </div>
