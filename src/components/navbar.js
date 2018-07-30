@@ -70,17 +70,17 @@ export default class Navbar extends React.Component {
                     <div id="contact-drawer" className="navbar-nav container">
                         <div id="contact" className="row">
                             <Navitem link="mailto:wynhsu@uw.edu"
-                                light="../public/img/contact/email-light.svg"
-                                dark="../public/img/contact/email-dark.svg" />
+                                light="./img/contact/email-light.svg"
+                                dark="./img/contact/email-dark.svg" />
                             <Navitem link="https://www.linkedin.com/in/wynston-hsu/"
-                                light="../public/img/contact/linkedin-light.svg"
-                                dark="../public/img/contact/linkedin-dark.svg" />
+                                light="./img/contact/linkedin-light.svg"
+                                dark="./img/contact/linkedin-dark.svg" />
                             <Navitem link="https://github.com/wynhsu"
-                                light="../public/img/contact/github-light.svg"
-                                dark="../public/img/contact/github-dark.svg" />
+                                light="./img/contact/github-light.svg"
+                                dark="./img/contact/github-dark.svg" />
                             <Navitem link="https://dribbble.com/wynhsu"
-                                light="../public/img/contact/dribbble-light.svg"
-                                dark="../public/img/contact/dribbble-dark.svg" />
+                                light="./img/contact/dribbble-light.svg"
+                                dark="./img/contact/dribbble-dark.svg" />
                         </div>
                     </div>
                 </div>
