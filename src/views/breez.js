@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar.js';
 import Image from '../components/image.js';
 import Navbtns from '../components/navbtns.js';
+import Footer from '../components/footer.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
@@ -80,11 +81,11 @@ export default class Breez extends React.Component {
                             <div className='col-md-8'>
                                 <div>
                                     <h3 className='font-weight-light'>Problem</h3>
-                                    <p>Social disconnect stemming from convenient and prevalent access to technology has been a major problem of the century. We observed an upsizing of phone screens in the current market trends leading to difficulty of usage, especially for one hand.</p>
+                                    <p>Social disconnect stemming from convenient and prevalent access to technology has become a major problem of the century. We observed an upsizing of phone screens in current market trends leading to difficulties of usage, especially for one hand.</p>
                                 </div>
                                 <div className='pt-4'>
                                     <h3 className='font-weight-light'>Approach</h3>
-                                    <p>Create an OS that minimized the amount of clutter, noise, and distractions. Focused on the utilization of natural and intuitive gestures in order to accommodate one-hand use.</p>
+                                    <p>Create an OS that minimized the amount of clutter, noise, and distractions. Focus on the utilization of natural and intuitive gestures to accommodate one-hand use.</p>
                                 </div>
                             </div>
                             <div className='col-md-4'>
@@ -174,7 +175,7 @@ export default class Breez extends React.Component {
                             <h5 className='text-center'>Media</h5>
                             <img src="./img/breez/media.png" alt="media"/>
                         </div>
-                        <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
+                        <Footer />
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar.js';
 import Image from '../components/image.js';
 import Navbtns from '../components/navbtns.js';
+import Footer from '../components/footer.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
@@ -76,12 +77,12 @@ export default class Foodie extends React.Component {
                         <div className='row'>
                             <div className='col-md-9'>
                                 <h3 className='font-weight-light'>Background</h3>
-                                <p>Foodie Fanatic is a mock client created by Professor Mike Doane for the course INFO330 Information Architecture. As a design team we have been given a series of information from the client, including the company's business objective, vision, and current issues.</p>
+                                <p>Foodie Fanatic is a mock client created by Professor Mike Doane for the course INFO330 Information Architecture. As a design team we were given a series of information from the client, including the company's business objective, vision, and current issues.</p>
                             </div>
                         </div>
                     </div>
-                    <div className='pt-5'>
-                        <img od='splash' src='./img/foodie/splash.png' alt="splash" />
+                    <div className='pt-5 text-center'>
+                        <img id='splash' src='./img/foodie/splash.png' alt="splash" />
                     </div>
                     <div className='spacing container'>
                         <div className='row'>
@@ -123,7 +124,7 @@ export default class Foodie extends React.Component {
                     <div className='spacing container'>
                         <p>Read more in detail on our <a href="./ff_appendix.pdf" target='_blank'>Appendix</a></p>
                     </div>
-                    <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
+                    <Footer />
                 </div>
             </div>
         );
