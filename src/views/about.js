@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
+import Footer from '../components/footer.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 
@@ -19,12 +20,12 @@ export default class About extends React.Component {
                     </div>
                     <div className='spacing container'>
                         <img className='gutter' src="./img/linkedin.jpg" alt="me" />
-                        <h3 className='text-center pt-4'>Wynston Hsu</h3>
-                        <p className='gutter'>I am a Senior Informatics student at the University of Washington. While I am pursuing a degree focus in Human-Computer Interaction, I like to keep myself well-rounded by improving my development skills as well. Creative freedom is something I value deeply, and seeing other's creative work has always inspired me to push myself and do the same. On my own time, I enjoy tackling personal graphics design projects.</p>
-                        <p className='gutter'>Aside from my career and academics, I am a man of the outdoors and enjoy going on hikes or trips to the beach. With my hometown being in Camas Washington, my favorite spots to go are along the Columbia River Gorge. Most recently, I visited <a href='https://gorgefriends.org/hike-the-gorge/falls-creek-falls.html'>Falls Creek Falls</a> and <a href='https://gorgefriends.org/hike-the-gorge/panther-creek-falls.html'>Panther Creek Falls</a> with my family.</p>
+                        <h3 className='text-center p-4'>Wynston Hsu</h3>
+                        <p className='gutter'>I am a Senior Informatics student at the University of Washington. While I am pursuing a degree focused on Human-Computer Interaction, I like to keep myself well-rounded by improving my development skills as well. In my free time I find myself looking for inspiration on Dribbble and Behance, as seeing other's creative work has always motivated me to push myself further. Currently, I am making my way through <a href="http://www.dailyui.co/">Daily UI</a>'s 100 Day Design Challenge (Although they aren't so daily these days).</p>
+                        <p className='gutter'>Aside from my career and academics, I enjoy the outdoors especially going on hikes or visiting the beach. Most recently, I went camping at <a href='https://www.nps.gov/olym/planyourvisit/visiting-staircase.htm'>Staircase</a> Olympic National Park with my brother and friends.</p>
                     </div>
                 </div>
-                <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
+                <Footer />
             </div>
         );
     }

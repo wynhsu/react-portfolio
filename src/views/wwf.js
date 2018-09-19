@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar.js';
 import Navbtns from '../components/navbtns.js';
+import Footer from '../components/footer.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
 import '../css/wwf.css';
@@ -73,11 +74,11 @@ export default class WWF extends React.Component {
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Overview</h3>
-                        <p>We replicated the popular game - Words with Friends. We used the Oxford Dictionary API to determine whether the players use valid words. In addition to maintaining and integrating the code base, I oversaw the application's overall UI &amp; UX designs. This web app uses the React js framework, and Firebase servers to host user data.</p>
+                        <p>We replicated the popular game - Words with Friends, used the Oxford Dictionary API to determine whether the players use valid words. In addition to maintaining and integrating the code base, I oversaw the application's overall UI &amp; UX designs. This web app uses the React js framework, and Firebase servers to host user data.</p>
                     </div>
                     <div className='spacing'>
                     </div>
-                    <p className='text-center footer'>&#169;2018 Wynston Hsu. Created with React.js</p>
+                    <Footer />
                 </div>
             </div>
         );

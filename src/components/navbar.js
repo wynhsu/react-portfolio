@@ -7,24 +7,15 @@ import '../css/nav.css';
 export default class Navbar extends React.Component {
     constructor(props) {
         super(props);
-        // this.state = {
-        //     active: 'Work'
-        // }
     }
 
     componentDidMount() {
-        // this.setState({ active: 'Work' });
         let url = this.props.pathname;
         let sub = "#" + url.substring(1);
         document.querySelector(sub).classList.add('active');
     }
 
-    // componentDidUpdate() {
-    //     this.checkActive();
-    // }
-
     checkActive(e) {
-        // console.log(this.state.active);
         document.querySelector('.active').classList.remove('active');
         if (e === 'Work') {
             let curr = document.querySelector('#work');
@@ -36,8 +27,7 @@ export default class Navbar extends React.Component {
     }
 
     changeActive(e) {
-        console.log(e);
-        // this.setState({ active: e });
+        // console.log(e);
         this.checkActive(e);
     }
 
