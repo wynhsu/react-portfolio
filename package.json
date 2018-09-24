@@ -1,5 +1,5 @@
 {
-  "name": "portfolio_II",
+  "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -34,6 +34,7 @@
     "react-dom": "^16.4.1",
     "react-iframe": "^1.2.0",
     "react-images": "^0.5.19",
-    "react-responsive-carousel": "^3.1.41"
+    "react-responsive-carousel": "^3.1.41",
+    "react-router-dom": "^4.3.1"
   }
 }
