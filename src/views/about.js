@@ -6,7 +6,7 @@ import '../css/ui.css';
 
 export default class About extends React.Component {
     componentDidMount() {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -15,14 +15,28 @@ export default class About extends React.Component {
                 <Navbar pathname={this.props.location.pathname} />
                 <div id='quote'>
                     <div className='spacing'>
-                        <h2 className='text-center pb-4'>"If you aren't failing every now and then, you're probably playing it too safe."</h2>
-                        <h5 className='text-center'>- Woody Allen</h5>
+                        <h4 className='text-center pb-4'>"If you aren't failing every now and then,
+                         you're probably playing it too safe."</h4>
+                        <h6 className='text-center'>Woody Allen</h6>
                     </div>
                     <div className='spacing container'>
-                        <img className='gutter' src="./img/linkedin.jpg" alt="me" />
+                        <div className='gutter'>
+                            <img className='gutter' src="./img/linkedin.jpg" alt="me" />
+                        </div>
                         <h3 className='text-center p-4'>Wynston Hsu</h3>
-                        <p className='gutter'>I am a Senior Informatics student at the University of Washington. While I am pursuing a degree focused on Human-Computer Interaction, I like to keep myself well-rounded by improving my development skills as well. In my free time I find myself looking for inspiration on Dribbble and Behance, as seeing other's creative work has always motivated me to push myself further. Currently, I am making my way through <a href="http://www.dailyui.co/">Daily UI</a>'s 100 Day Design Challenge (Although they aren't so daily these days).</p>
-                        <p className='gutter'>Aside from my career and academics, I enjoy the outdoors especially going on hikes or visiting the beach. Most recently, I went camping at <a href='https://www.nps.gov/olym/planyourvisit/visiting-staircase.htm'>Staircase</a> Olympic National Park with my brother and friends.</p>
+                        <p className='gutter'>I am a senior Informatics student at the University of Washington.
+                            While my area of focus is on Human-Computer Interaction, I like to keep myself
+                            well-rounded by also improving upon my coding skills. My passion for design
+                            stems from empathy and creativity. I find it extremely rewarding to create
+                            designs that are not only useful to others, but also delightful to interact
+                            with. While I take pride in the products I design, I also find beauty in
+                            the collaborating with others as I think different perspectives allow us to grow
+                            as individuals.</p>
+                        <p className='gutter'>In my free time I find myself looking for inspiration on
+                            Dribbble and Behance, or reading Medium articles on the latest in design.
+                            Seeing other's creative work has always motivated me to push myself further.
+                            Currently, I am making my way through <a href="http://www.dailyui.co/">Daily UI</a>'s
+                            100 Day Design Challenge (Although they aren't so daily these days).</p>
                     </div>
                 </div>
                 <Footer />
