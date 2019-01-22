@@ -36,7 +36,7 @@ export default class About extends React.Component {
                             Dribbble and Behance, or reading Medium articles on the latest in design.
                             Seeing other's creative work has always motivated me to push myself further.
                             Currently, I am making my way through <a href="http://www.dailyui.co/">Daily UI</a>'s
-                            100 Day Design Challenge (Although they aren't so daily these days).</p>
+                            100 Day Design Challenge.</p>
                     </div>
                 </div>
                 <Footer />
