@@ -204,21 +204,21 @@ export default class WeEat extends React.Component {
                         <div className='row'>
                             <div className='pb-4 col-md-6'>
                                 <h5 className='text-center'>Food Lover</h5>
-                                {/* <a href="https://invis.io/A3N1N20KY2P" 
-                                    target='_blank' alt="food lover prototype">Link</a> */}
-                                <Iframe className="mr-auto ml-auto" 
+                                <a href="https://invis.io/A3N1N20KY2P" 
+                                    target='_blank' alt="food lover prototype">Link</a>
+                                {/* <Iframe className="mr-auto ml-auto" 
                                     url="https://invis.io/A3N1N20KY2P" 
                                     height="900px" width="450px" 
-                                    display="block" position="static" />
+                                    display="block" position="static" /> */}
                             </div>
                             <div className='pb-4 col-md-6'>
                                 <h5 className='text-center'>Home Chef</h5>
-                                {/* <a href="https://invis.io/S6N2M3KF3KV" 
-                                    target='_blank' alt="home chef prototype">Link</a> */}
-                                <Iframe className="mr-auto ml-auto" 
+                                <a href="https://invis.io/S6N2M3KF3KV" 
+                                    target='_blank' alt="home chef prototype">Link</a>
+                                {/* <Iframe className="mr-auto ml-auto" 
                                     url="https://invis.io/S6N2M3KF3KV" 
                                     height="900px" width="450px" 
-                                    display="block" position="static" />
+                                    display="block" position="static" /> */}
                             </div>
                         </div>
                     </div>
