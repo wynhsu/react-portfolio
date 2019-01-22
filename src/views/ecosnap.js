@@ -107,7 +107,7 @@ export default class EcoSnap extends React.Component {
                     </div>
 
                     <div className="spacing container">
-                        <img className='pt-4' src="../public/img/coding/ecosnap/benefits.png" alt="features" />
+                        <img className='pt-4' src="./img/coding/ecosnap/benefits.png" alt="features" />
                     </div>
 
                     <div className="spacing container">
