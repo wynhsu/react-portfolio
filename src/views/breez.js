@@ -14,7 +14,8 @@ export default class Breez extends React.Component {
     render() {
         const {
             timeline = ["INFO 365: Mobile Application Design", "September - December, 2017", "10 weeks"],
-            skills = ["Wireframes", "Personas", "Competitive Analysis", "Hi-fi Prototypes"]
+            members = ["Brent Gruenke", "Cynthia Richey", "Eduardo Rojas", "Mike Eacker", "Sangwoo Martin Song"],
+            skills = ["Wireframes", "Personas", "Competitive Analysis", "Hi-fi Mockups"]
         } = this.props;
 
         return (
@@ -46,20 +47,13 @@ export default class Breez extends React.Component {
                             <div className='col-md-4'>
                                 <div className='ml-auto mr-auto'>
                                     <h5 className='text-center'>MEMBERS</h5>
-                                    <a className='text-center d-block' 
-                                        href='https://brentgruenke.com/' 
-                                        target='_blank'>
-                                        Brent Gruenke</a>
-                                    <p className='text-center'>Cynthia Richey</p>
-                                    <a className='text-center d-block'  
-                                        href='http://www.eduardorojase.com/' 
-                                        target='_blank'>
-                                        Eduardo Rojas</a>
-                                    <p className='text-center'>Sangwoo Martin Song</p>
-                                    <a className='text-center d-block' 
-                                        href='https://www.mikeeacker.com' 
-                                        target='_blank'>
-                                        Mike Eacker</a>
+                                    {
+                                        members.map((member) => {
+                                            return (
+                                                <p className='text-center'>{member}</p>
+                                            )
+                                        })
+                                    }
                                 </div>
                             </div>
                             <div className='col-md-4'>
@@ -81,16 +75,23 @@ export default class Breez extends React.Component {
                             <div className='col-md-8'>
                                 <div>
                                     <h3 className='font-weight-light'>Problem</h3>
-                                    <p>Social disconnect stemming from convenient and prevalent access to technology has become a major problem of the century. We observed an upsizing of phone screens in current market trends leading to difficulties of usage, especially for one hand.</p>
+                                    <p>Social disconnect stemming from convenient and prevalent access
+                                         to technology has become a major problem of the century. We
+                                          observed an upsizing of phone screens in current market trends
+                                           leading to difficulties of usage, especially for one hand.</p>
                                 </div>
                                 <div className='pt-4'>
                                     <h3 className='font-weight-light'>Approach</h3>
-                                    <p>Create an OS that minimized the amount of clutter, noise, and distractions. Focus on the utilization of natural and intuitive gestures to accommodate one-hand use.</p>
+                                    <p>Create an OS that minimized the amount of clutter, noise, and
+                                         distractions. Focus on the utilization of natural and intuitive
+                                          gestures to accommodate one-hand use.</p>
                                 </div>
                             </div>
                             <div className='col-md-4'>
                                 <img src="./img/breez/ideation.jpg" alt="ideation" />
-                                <p className='caption'>We began our design process with an affinity diagram of what our team like or disliked about current mobile environments on the market.</p>
+                                <p className='caption'>We began our design process with an affinity
+                                 diagram of what our team like or disliked about current mobile
+                                  environments on the market.</p>
                             </div>
                         </div>
                     </div>
@@ -100,13 +101,15 @@ export default class Breez extends React.Component {
                             <div className='col-md-4'>
                                 <div className='ml-auto mr-auto'>
                                     <h5 className='text-center'>FOCUSED</h5>
-                                    <p>Minimize distraction in the form of colors, motion, and noise. Encourage productivity and mindful usage.</p>
+                                    <p>Minimize distraction in the form of colors, motion, and noise.
+                                         Encourage productivity and mindful usage.</p>
                                 </div>
                             </div>
                             <div className='col-md-4'>
                                 <div className='ml-auto mr-auto'>
                                     <h5 className='text-center'>RESPONSIVE</h5>
-                                    <p>Adapts and evolves, to become the extension of one's body and mind. Utilize motion and form to provide a natural experience.</p>
+                                    <p>Adapts and evolves, to become the extension of one's body and mind.
+                                         Utilize motion and form to provide a natural experience.</p>
                                 </div>
                             </div>
                             <div className='col-md-4'>
@@ -121,7 +124,11 @@ export default class Breez extends React.Component {
                         <div className='row'>
                             <div className='col-md-9'>
                                 <h3 className='font-weight-light'>System and Gestures</h3>
-                                <p>Our intention was to design for maximum comfort and functionality, through the utilization of natural human motions and gestures. We adopted this heat map illustrating the reachable zones on screen during one-hand use as a core focus, and designed our interactions around the 'natural' zones on screen.</p>
+                                <p>Our intention was to design for maximum comfort and functionality,
+                                     through the utilization of natural human motions and gestures.
+                                      We adopted this heat map illustrating the reachable zones on
+                                       screen during one-hand use as a core focus, and designed our
+                                        interactions around the 'natural' zones on screen.</p>
                                 <img src="./img/breez/gestures.svg" alt="gestures" />
                             </div>
                             <div className='col-md-3'>
@@ -135,12 +142,18 @@ export default class Breez extends React.Component {
                             <div className='col-md-6'>
                                 <img src="./img/breez/netflixui.jpg" alt="netflix" />
                                 <img src="./img/breez/appletvui.png" alt="appletv" />
-                                <p className='caption'>The Assistive Reach feature of our design was inspired by the selection indicators from both Apple TV and Netflix. Using either highlighting or change in size, the two allow users to navigate among items similar to a cursor.</p>
+                                <p className='caption'>The Assistive Reach feature of our design was
+                                 inspired by the selection indicators from both Apple TV and Netflix.
+                                  Using either highlighting or change in size, the two allow users
+                                   to navigate among items similar to a cursor.</p>
                             </div>
                             <div className='col-md-6'>
                                 <img className='pt-5 pb-5' src="./img/breez/iphone.png" alt="iphone" />
                                 <img className='pb-5' src="./img/breez/android.png" alt="android" />
-                                <p className='caption'>Our OS global controls were inspired by qualities that can be found from both Android and iPhones. Combining the features we found best on both devices, we were able to create for something that resonated with our design language.</p>
+                                <p className='caption'>Our OS global controls were inspired by qualities
+                                 that can be found from both Android and iPhones. Combining the features
+                                  we found best on both devices, we were able to create for something
+                                   that resonated with our design language.</p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +163,14 @@ export default class Breez extends React.Component {
                         <div className='row'>
                             <div className='col-md-6'>
                                 <h5>Action Orbiter</h5>
-                                <p>Inspired by Google's Material Design, our team decided to incorporate many of what we thought were the best components into Breez. We utilized Material's color palette, as well as its flat design look and feel. Additionally, we drew inspiration from the floating action button present in many of Google's applications. The Action Orbiter - as we call it, would provide prominent functionalities on the screen and allows users to easily access them with one hand.</p>
+                                <p>Inspired by Google's Material Design, our team decided to incorporate
+                                     many of what we thought were the best components into Breez. We
+                                      utilized Material's color palette, as well as its flat design
+                                       look and feel. Additionally, we drew inspiration from the floating
+                                        action button present in many of Google's applications. The
+                                         Action Orbiter - as we call it, would provide prominent
+                                          functionalities on the screen and allows users to easily
+                                           access them with one hand.</p>
                             </div>
                             <div className='col-md-6'>
                                 <img src="./img/breez/orbiter.png" alt="orbiter" />
@@ -159,7 +179,20 @@ export default class Breez extends React.Component {
                         <div>
                             <img src="./img/breez/iteration.png" alt="iteration"/>
                         </div>
-                        <p>Through our iterations, we would come to eventually abandon the idea of the orbiter. This decision was made due to many factors regarding feasibility and time constraint. It was illuminated to us during critique by professional designers that while the Action Orbiter provided access to features during one hand usage, it was at the cost of keeping said features hidden from the users. In addition to being hidden, the features within the orbiter differed depending on the app, which added another layer of complexity as it left users guessing what options were possible on each screen.</p>
+                        <p>Through our iterations, we would come to eventually abandon the idea of
+                             the orbiter. This decision was made due to many factors regarding
+                              feasibility and time constraint. It was illuminated to us during
+                               critique by professional designers that while the Action Orbiter
+                                provided access to features during one hand usage, it was at the
+                                 cost of keeping said features hidden from the users. In addition
+                                  to being hidden, the features within the orbiter differed depending
+                                   on the app, which added another layer of complexity as it left
+                                    users guessing what options were possible on each screen.</p>
+                        <p className="topSpacer">In our final development version, we were able to implement an alternative
+                             solution to the orbiter using a bottom-oriented bar that contained the core
+                              features on a given screen. While this version of our approach did not
+                               provide full one-hand access to all functions, we believed that it would
+                                still accomplish our intention for the majority.</p>
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Final Screens</h3>

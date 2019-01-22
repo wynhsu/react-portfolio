@@ -3,18 +3,17 @@ import Navbar from '../components/navbar.js';
 import Footer from '../components/footer.js';
 import constants from '../include/constants.js';
 import '../css/ui.css';
-import '../css/wwf.css';
 
-export default class WWF extends React.Component {
+export default class CourtVision extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
 
     render() {
         const {
-            timeline = ["INFO 343: Client-Side Web Development", "November - December, 2017", "3 weeks"],
-            members = ["Charlye Castro", "Christian Hahn", "Ian Figon"],
-            skills = ["React.js", "Firebase", "Bootstrap"]
+            timeline = ["INFO 449: iOS Development", "November - December, 2018", "3 weeks"],
+            members = ["Aaron Nguyen", "Anirudh Subramanyam", "Tejveer Rai"],
+            skills = ["Swift", "Firebase", "Wireframes", "Hi-fi Mockups"]
         } = this.props;
 
         return (
@@ -22,13 +21,11 @@ export default class WWF extends React.Component {
                 <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='header'>
-                        <h3 className='text-center'>Words With Friendz</h3>
-                        <a className='btn mr-auto ml-auto glass' role="button"
-                            href='https://wynhsu.github.io/words-with-friends/#/'
-                            target='_blank'>Play!</a>
+                        <h3 className='text-center'>CourtVision</h3>
+                        <p className='text-center'></p>
                     </div>
                     <div className='banner'>
-                        <img src={constants.images.wwfBanner} alt="banner" />
+                        <img src={constants.images.cvBanner} alt="banner" />
                     </div>
                     <div className='spacing container'>
                         <div className='row'>
@@ -72,11 +69,7 @@ export default class WWF extends React.Component {
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Project Description</h3>
-                        <p>We replicated the popular game - Words with Friends, used the Oxford
-                             Dictionary API to determine whether the players use valid words. In
-                              addition to maintaining and integrating the code base, I oversaw the
-                               application's overall UI &amp; UX designs. This web app uses the
-                                React js framework, and Firebase servers to host user data.</p>
+                        <p>In Progress!</p>
                     </div>
                     <div className='spacing'>
                     </div>

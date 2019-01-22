@@ -18,7 +18,8 @@ export default class Foodie extends React.Component {
         const {
             timeline = ["INFO 330: Information Architecture", "January - March, 2018", "10 weeks"],
             members = ["Calvin Chen", "Luke Allen", "Solayman Yousuf", "Tyler Treat"],
-            skills = ["Wireframes", "Information Personas", "Storyboard", "Business Case", "Site Map", "Hi-fi Prototypes"]
+            skills = ["Wireframes", "Information Personas", "Storyboard", "Business Case", "Site Map",
+                "User Flow", "Hi-fi Mockups"]
         } = this.props;
 
         return (
@@ -27,7 +28,8 @@ export default class Foodie extends React.Component {
                 <div>
                     <div className='header'>
                         <h3 className='text-center'>Foodie Fanatic</h3>
-                        <p className='text-center'>Bridging the gap between users and company through culinary satisfaction</p>
+                        <p className='text-center'>Bridging the gap between users and company through
+                         culinary satisfaction</p>
                     </div>
                     <Navbtns />
                     <div className='banner'>
@@ -77,7 +79,10 @@ export default class Foodie extends React.Component {
                         <div className='row'>
                             <div className='col-md-9'>
                                 <h3 className='font-weight-light'>Background</h3>
-                                <p>Foodie Fanatic is a mock client created by Professor Mike Doane for the course INFO330 Information Architecture. As a design team we were given a series of information from the client, including the company's business objective, vision, and current issues.</p>
+                                <p>Foodie Fanatic is a mock client created by Professor Mike Doane for
+                                     the course INFO330 Information Architecture. As a design team we
+                                      were given a series of information from the client, including the
+                                       company's business objective, vision, and current issues.</p>
                             </div>
                         </div>
                     </div>
@@ -88,19 +93,22 @@ export default class Foodie extends React.Component {
                         <div className='row'>
                             <div className='col-md-9'>
                                 <h3 className='font-weight-light'>Problem</h3>
-                                <p>Current issues mainly stem from two factors: One is the convoluted nature of the site's IA, resulting in difficulty navigating hidden or nested content. The second is caused by low level of relevance of search results, as well as the overwhelming number of irrelevant options currently offered.</p>
+                                <p>Current issues mainly stem from two factors: One is the convoluted
+                                     nature of the site's IA, resulting in difficulty navigating hidden
+                                      or nested content. The second is caused by low level of relevance
+                                       of search results, as well as the overwhelming number of irrelevant
+                                        options currently offered.</p>
                             </div>
                         </div>
                     </div>
                     <div className='spacing container'>
-                        <div className='row'>
-                            <div className='col-md-9'>
-                                <h3 className='font-weight-light'>Content Strategy</h3>
-                                <p> •  Ease of use and access, focusing on mobile first.</p>
-                                <p> •  Clarity and relevance to what the users are looking for.</p>
-                                <p> •  A sense of community and social interaction between users.</p>
-                                <p> •  Involvement and inclusion of all users with diverse skills, backgrounds, and experiences.</p>
-                            </div>
+                        <div>
+                            <h3 className='font-weight-light'>Content Strategy</h3>
+                            <p> •  Ease of use and access, focusing on mobile first.</p>
+                            <p> •  Clarity and relevance to what the users are looking for.</p>
+                            <p> •  A sense of community and social interaction between users.</p>
+                            <p> •  Involvement and inclusion of all users with diverse skills,
+                                     backgrounds, and experiences.</p>
                         </div>
                     </div>
                     <div className='spacing container'>

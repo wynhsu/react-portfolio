@@ -9,7 +9,7 @@ export default class Navbtns extends React.Component {
             <div className='btn-drawer'>
                 <Button link="./img/breez_button.svg" route={constants.routes.Breez} />
                 <Button link="./img/weeat_button.svg" route={constants.routes.WeEat} />
-                <Button link="./img/wwf_button.svg" route={constants.routes.WWF} />
+                {/* <Button link="./img/wwf_button.svg" route={constants.routes.WWF} /> */}
                 <Button link="./img/foodie_button.svg" route={constants.routes.Foodie} />
             </div>
         );

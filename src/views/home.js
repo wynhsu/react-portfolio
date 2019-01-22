@@ -64,12 +64,30 @@ export default class Home extends React.Component {
                         </div>
                         <Card link={constants.images.breez} route={constants.routes.Breez} name={"breez"} />
                         <Card link={constants.images.weEat} route={constants.routes.WeEat} name={"weEat"} />
-                        <Card link={constants.images.wwf} route={constants.routes.WWF} name={"wordsWithFriendz"} />
+                        {/* <Card link={constants.images.wwf} route={constants.routes.WWF} name={"wordsWithFriendz"} /> */}
                         <Card link={constants.images.foodie} route={constants.routes.Foodie} name={"foodieFanatic"} />
+                    </div>
+                    <div className='container'>
+                        <div className="topSpacer">
+                            <div className="pt-5 pb-5">
+                                <h2 className="text-center">Coding</h2>
+                            </div>
+                            <div className="row">
+                                <div className="col-4">
+                                    <Card link={constants.images.ecoSnap} route={constants.routes.EcoSnap} name={"ecoSnap"} />
+                                </div>
+                                <div className="col-4">
+                                    <Card link={constants.images.courtVision} route={constants.routes.CourtVision} name={"courtVision"} />
+                                </div>
+                                <div className="col-4">
+                                    <Card link={constants.images.wwf} route={constants.routes.WWF} name={"wordsWithFriendz"} />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="container">
                         <div className="topSpacer">
-                            <div className="pt-4 pb-4">
+                            <div className="pt-5 pb-5">
                                 <h2 className="text-center">Gallery</h2>
                             </div>
                             <Lightbox
