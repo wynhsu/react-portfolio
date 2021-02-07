@@ -59,7 +59,7 @@ export default class Boeing extends React.Component {
                         </div>
                     </div>
                     <div className='banner'>
-                        <img src={constants.images.breez} alt="banner" />
+                        <img src={constants.images.boeing} alt="banner" />
                     </div>
                     <div className='container'>
                         <div className='row'>
@@ -219,11 +219,76 @@ export default class Boeing extends React.Component {
                                          application. Based on my research, I focused on three key 
                                          design goals:
                                     </p>
-                                    <div className='row'>
-                                        <div>
-                                            
+                                    <div className='row forty-eight'>
+                                        <div className='col-md-3'>
+                                            <img src="./img/boeing/collaboration.svg" alt="collaboration" />
+                                            <p className='icon-text'>Improve Planning <em className='text-highlight'>Efficiency</em> Through Real-Time Collaboration</p>
+                                        </div>
+                                        <div className='col-md-1'></div>
+                                        <div className='col-md-3'>
+                                            <img src="./img/boeing/system.svg" alt="system" />
+                                            <p className='icon-text'>Provide <em className='text-highlight'>Contextual Information</em> With System Integrations</p>
+                                        </div>
+                                        <div className='col-md-1'></div>
+                                        <div className='col-md-3'>
+                                            <img src="./img/boeing/learning.svg" alt="learning" />
+                                            <p className='icon-text'>Increase <em className='text-highlight'>Ease of Use</em> Through a Learnable Design</p>
                                         </div>
                                     </div>
+                                </div>
+                                <div className='break'>
+                                    <h3 className='section-title'>Core Experiences</h3>
+                                    <p className='label'>STEP I: TRACKING LABOR</p>
+                                    <p>Before creating the daily plan, managers first needed to know
+                                        which individuals on the team were available to be assigned 
+                                        work. To do so, managers relied on a mix of emails, phone 
+                                        calls, text messages, and HR systems to stay informed. Since 
+                                        the Excel file was not linked to any particular tool, managers 
+                                        were expected to understand the macros put in place to 
+                                        accurately reflect the day’s attendance.
+                                    </p>
+                                    <p>The Excel macros were scripted in a way that made users to have 
+                                        to scroll extensively up and down the sheet, and at times even 
+                                        navigate to different sheets entirely, in search for needed 
+                                        information. Once found, users would then have to get back to 
+                                        their original spot within the file and recall the information 
+                                        while manually entering it. There was no way to validate the 
+                                        correct employee entity, check for spelling errors, or provide 
+                                        notice for duplicate records.
+                                    </p>
+                                    <img className='forty-eight' src="./img/boeing/wireframe_MyTeam.svg" alt="wireflow for My Team" />
+                                    <p className='forty-eight'>The most straight forward solution was for PMC to integrate 
+                                        directly with the company’s attendance systems. This would 
+                                        remove concerns around manual employee verification, and 
+                                        automate the attendance tracking process entirely. With this 
+                                        approach, I could then focus on designing the interaction 
+                                        for making manual adjustments to the attendance information. 
+                                        My design goals were to:
+                                    </p>
+                                    <p>• Reduce the frequency of manual data entry</p>
+                                    <p>• Remove the barrier to entry from needing to know Excel macros</p>
+                                    <p>• Improve information way finding by simplifying navigation </p>
+                                    <img className='forty-eight' src="./img/boeing/MyTeam_main.png" alt="hi-fi of My Team page" />
+                                    <p className='forty-eight'>I used a single-page view here, as it most effectively combines 
+                                        multiple actions without the need to navigate away to other 
+                                        pages of the application. Employees are added into the system 
+                                        via ID look up, and once added users would drag and drop the 
+                                        entity to one of the four categories: present, absent, loaned, 
+                                        or certifying. No manual data entry is required.
+                                    </p>
+                                    <img className='forty-eight' src="./img/boeing/MyTeam_config.png" alt="hi-fi of My Team configuration page" />
+                                    <p className='forty-eight'>Employee configurations such as 
+                                        certifications and skill sets are accessed by selecting a name 
+                                        from the left side sheet. The side sheet always persist in view 
+                                        to ensure better discoverability of the employee configurations. 
+                                        Depending on the item selected the right-side view would then 
+                                        change accordingly, a common pattern taken from many popular chat 
+                                        room applications. For better form readability I split the view 
+                                        further into two halves: the left for the user to focus on data 
+                                        entry, and the right for reference while inputting information. 
+                                        Lastly, I added the multi-selection of employees as an accelerator 
+                                        to configuration of multiple individuals at once.
+                                    </p>
                                 </div>
                             </div>
                         </div>

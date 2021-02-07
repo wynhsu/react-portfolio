@@ -10,7 +10,7 @@ export default class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            prevScrollpos: 0
+            prevScrollpos: window.pageYOffset
         }
         // console.log(this.state.prevScrollpos);
         this.hideNav = this.hideNav.bind(this);
@@ -45,16 +45,16 @@ export default class Navbar extends React.Component {
 
     hideNav() {
         // var prevScrollpos = window.pageYOffset;
-        console.log(this.state.prevScrollpos);
+        // console.log(this.state.prevScrollpos);
         let h = this.state.prevScrollpos
         let currentScrollpos;
         window.onscroll = () =>  {
             currentScrollpos = window.pageYOffset;
             if (h > currentScrollpos) {
-                console.log("scrolling up");
+                // console.log("scrolling up");
                 document.getElementsByClassName("navbar")[0].style.top = "0";
             } else {
-                console.log("scrolling down");
+                // console.log("scrolling down");
                 document.getElementsByClassName("navbar")[0].style.top = "-60px";
             }
             this.setState({

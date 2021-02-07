@@ -11,6 +11,7 @@ export default {
         About: '/about'
     },
     images: {
+        boeing: "./img/boeing/pmc_banner.png",
         breez: "./img/breez/breez_banner.svg",
         weEat: "./img/weEat/weEat_banner.svg",
         foodie: "./img/foodie/ff_banner.png",

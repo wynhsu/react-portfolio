@@ -50,3 +50,13 @@ div.title h1 {
 .forty-eight {
     padding-top: 3rem;
 }
+
+.text-highlight {
+    font-weight: 700;
+    color: #008cc8;
+    font-style: normal;
+}
+
+.icon-text {
+    text-align: center;
+}
