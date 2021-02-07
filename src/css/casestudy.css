@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.title {
+    padding-top: 9.375rem;
+    padding-bottom: 9.375rem;
+}
+
+.break {
+    padding-top: 7.5rem;
+}
+
+div.title h1 {
+    font-family: 'Montseratt', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.title-spacer {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+.label {
+    color: #707070;
+    font-weight: 700;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-title {
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.stats {
+    color: #008cc8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.forty-eight {
+    padding-top: 3rem;
+}

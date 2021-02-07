@@ -99,7 +99,7 @@ export default class Breez extends React.Component {
                                         gestures to accommodate one-hand use.</p>
                                 </div>
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 pt-5'>
                                 <img src="./img/breez/ideation.jpg" alt="ideation" />
                                 <p className='caption'>We began our design process with an affinity
                                     diagram of what our team like or disliked about current mobile

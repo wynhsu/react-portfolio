@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Switch, Redirect, Route } from 'react-router-dom';
 import Home from './views/home.js';
+import Boeing from './views/boeing.js';
 import Breez from './views/breez.js';
 import WeEat from './views/weeat.js';
 import Foodie from './views/foodie.js';
@@ -18,6 +19,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path={constants.routes.Work} component={Home} />
+            <Route path={constants.routes.Boeing} component={Boeing} />
             <Route path={constants.routes.Breez} component={Breez} />
             <Route path={constants.routes.WeEat} component={WeEat} />
             <Route path={constants.routes.Foodie} component={Foodie} />

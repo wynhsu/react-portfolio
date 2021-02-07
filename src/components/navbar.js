@@ -5,14 +5,26 @@ import constants from '../include/constants.js';
 import '../css/nav.css';
 
 export default class Navbar extends React.Component {
+    
+    
     constructor(props) {
         super(props);
+        this.state = {
+            prevScrollpos: 0
+        }
+        // console.log(this.state.prevScrollpos);
+        this.hideNav = this.hideNav.bind(this);
     }
 
     componentDidMount() {
         let url = this.props.pathname;
         let sub = "#" + url.substring(1);
         document.querySelector(sub).classList.add('active');
+        window.addEventListener('scroll', this.hideNav);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.hideNav);
     }
 
     checkActive(e) {
@@ -31,9 +43,29 @@ export default class Navbar extends React.Component {
         this.checkActive(e);
     }
 
+    hideNav() {
+        // var prevScrollpos = window.pageYOffset;
+        console.log(this.state.prevScrollpos);
+        let h = this.state.prevScrollpos
+        let currentScrollpos;
+        window.onscroll = () =>  {
+            currentScrollpos = window.pageYOffset;
+            if (h > currentScrollpos) {
+                console.log("scrolling up");
+                document.getElementsByClassName("navbar")[0].style.top = "0";
+            } else {
+                console.log("scrolling down");
+                document.getElementsByClassName("navbar")[0].style.top = "-60px";
+            }
+            this.setState({
+                prevScrollpos: currentScrollpos
+            });
+          }
+    }
+
     render() {
         return (
-            <nav className='navbar navbar-expand-md fixed-top navbar-light shadow'>
+            <nav className='navbar navbar-expand-md fixed-top navbar-light'>
                 <NavLink className='navbar-brand font-weight-bold' to='/'>WYNSTON HSU</NavLink>
                 <button className="navbar-toggler collapsed"
                     type="button"

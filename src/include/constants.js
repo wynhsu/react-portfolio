@@ -1,6 +1,7 @@
 export default {
     routes: {
         Work: '/work',
+        Boeing: '/boeing',
         Breez: '/breezos',
         WeEat: '/weeat',
         Foodie: '/foodiefanatic',
