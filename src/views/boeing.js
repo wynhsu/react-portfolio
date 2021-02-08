@@ -59,7 +59,7 @@ export default class Boeing extends React.Component {
                         </div>
                     </div>
                     <div className='banner'>
-                        <img src={constants.images.boeing} alt="banner" />
+                        <img src={constants.images.boeing} alt="PMC case study banner" />
                     </div>
                     <div className='container'>
                         <div className='row'>
@@ -145,10 +145,11 @@ export default class Boeing extends React.Component {
                                     </p>
                                 </div>
                                 <div className='break'>
-                                    <img />
+                                    {/* <img src='http://drive.google.com/uc?export=view&id=1lnDId0nNWeogOSAbtzYQFGMIWJiDdZSj' /> */}
+                                    <img src='./img/boeing/cPersona.png' alt='operations manager persona'/>
                                 </div>
                                 <div className='break'>
-                                    <img />
+                                    <img src='user-journey.png' alt='user journey map' />
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>Top Challenges</h3>
@@ -221,17 +222,17 @@ export default class Boeing extends React.Component {
                                     </p>
                                     <div className='row forty-eight'>
                                         <div className='col-md-3'>
-                                            <img src="./img/boeing/collaboration.svg" alt="collaboration" />
+                                            <img src="./img/boeing/collaboration.svg" alt="collaboration icon" />
                                             <p className='icon-text'>Improve Planning <em className='text-highlight'>Efficiency</em> Through Real-Time Collaboration</p>
                                         </div>
                                         <div className='col-md-1'></div>
                                         <div className='col-md-3'>
-                                            <img src="./img/boeing/system.svg" alt="system" />
+                                            <img src="./img/boeing/system.svg" alt="system icon" />
                                             <p className='icon-text'>Provide <em className='text-highlight'>Contextual Information</em> With System Integrations</p>
                                         </div>
                                         <div className='col-md-1'></div>
                                         <div className='col-md-3'>
-                                            <img src="./img/boeing/learning.svg" alt="learning" />
+                                            <img src="./img/boeing/learning.svg" alt="learning icon" />
                                             <p className='icon-text'>Increase <em className='text-highlight'>Ease of Use</em> Through a Learnable Design</p>
                                         </div>
                                     </div>
@@ -289,6 +290,98 @@ export default class Boeing extends React.Component {
                                         Lastly, I added the multi-selection of employees as an accelerator 
                                         to configuration of multiple individuals at once.
                                     </p>
+                                </div>
+                                <div className='break'>
+                                    <p className='label'>STEP II: MANAGING THE PLAN</p>
+                                    <p>Managers needed to have clear visibility and ease of access 
+                                        to various moving pieces of information in order to be ready 
+                                        to respond at a moments notice. When usability testing the 
+                                        original PMC application, many users expressed frustrations 
+                                        around having to navigate to different pages in order to find 
+                                        information or make edits. Even though everything was encapsulated 
+                                        into one application, the burden of having to know where to 
+                                        go to access information in a new environment meant it was not 
+                                        much better than the existing process. Similar to taking 
+                                        attendance, users still had to deal with the same Excel macros 
+                                        and navigation issues from before.
+                                    </p>
+                                    <p>This particular step in the process contained many sub-tasks 
+                                        that do not follow a predictable order. Managers have to account 
+                                        for the matters such as the assignments of airplanes, employees, 
+                                        as well as determining the statements of work for the day — any 
+                                        of which could be adjusted in reaction to schedule delays, weather 
+                                        conditions, or insufficient labor. The complex nature of the tasks 
+                                        at hand also meant the view was packed with information that was 
+                                        not very easy to find. This was especially noticeable if managers 
+                                        have a busy day, as the lack of information hierarchy resulted in 
+                                        an intimidating cluster of text that made the file difficult to 
+                                        use effectively.
+                                    </p>
+                                    <img className='forty-eight' src="./img/boeing/layout-design.svg" alt="wireframe options for My Plan" />
+                                    <p className='forty-eight'>The three key principles I kept in mind when designing this view were:</p>
+                                    <p>• Provide better information organization and hierarchy</p>
+                                    <p>• Consolidate the segmentation of information sources</p>
+                                    <p>• Maintain visibility to key information</p>
+                                    <p className='forty-eight'>I tested a few different layout variations, 
+                                        with the goal of determining the most effective way to organize 
+                                        the information in a clear hierarchy. The 4 column grid-layout 
+                                        that I went with made the most sense, as stall numbers would 
+                                        the unique identifier users scan for when first beginning any 
+                                        assignment. Like with the attendance screen, I used a single-page 
+                                        view — this time with a tabbed side sheet — to support having 
+                                        many possible actions on the page without needing to navigate away.
+                                    </p>
+                                    <p>Inside the side sheet contained airplane and employee information 
+                                        on cards. I wanted to provide immediate visibility to available 
+                                        resources in order to help users establish a clear mental model 
+                                        of where to look for assignable items, as opposed to making users 
+                                        expand a dropdown list.
+                                    </p>
+                                    <p>To make the ‘assign’ task an easily learnable interaction, I 
+                                        wanted users to be able to visualize the associations being 
+                                        made as they moved items across the screen. These were three 
+                                        main interactions I considered:
+                                    </p>
+                                    <img src='./img/boeing/interaction-design.png' alt='pros and cons of different interaction options' />
+                                    <p className='forty-eight'>Ultimately, I went with dragging and dropping the resource cards 
+                                        onto the corresponding column for a particular stall (rows). 
+                                        Since the main goal is for users to be able to quickly understand 
+                                        how to move objects to different areas on the screen, this 
+                                        interaction would draw from my user’s existing understanding and 
+                                        familiarity with Windows (especially in regard to how file 
+                                        management works). To account for the drawbacks of this interaction,
+                                        such as the lack of precision, I made sure to follow best practices
+                                        ensuring ease of use.
+                                    </p>
+                                    <img src='./img/boeing/drag-drop_guide.png' alt='best practices when using drag and drop interactions' />
+                                    <p className='forty-eight'>Trello provides a similar use case, where an item is assigned by drag &amp; drop to different target areas.</p>
+                                    <img src='./img/boeing/trello.png' alt='screen shot of Trello application' />
+                                    <p>Some additional features to further improve the ease of access to information include:</p>
+                                    <p>1. Re-arranging stalls with shared resources next to each other 
+                                        on the screen. This eliminates the need to use small, often 
+                                        indistinguishable icons to indicate resource-sharing or ‘grouped’ 
+                                        stalls, and saves the user time by not having to play a memory 
+                                        game each time to get this information.
+                                    </p>
+                                    <p>2. Incorporating airplane schedule information graphically as 
+                                        part of PMC, allowing for a more streamlined planning experience 
+                                        by eliminating the need for users to go and search for that 
+                                        information in another system.
+                                    </p>
+                                    <p>3. Highlighting employee skill sets and specialties, so that 
+                                        managers have an easier time determining who should be assigned 
+                                        to a particular job — again without having to open a separate 
+                                        system.
+                                    </p>
+                                    <p>4. Integrating with the real-time airplane tracker system, 
+                                        so that the only planes being displayed in the system are 
+                                        the ones that currently have jobs that need to be completed.
+                                    </p>
+                                    <p>5. Column searches for users looking for specific information, 
+                                        and filters for those who wish to simplify the view to 
+                                        information pertaining to themselves.
+                                    </p>
+                                    <img src='./img/boeing/MyPlan.png' alt='hi-fi of My Plan page'/>
                                 </div>
                             </div>
                         </div>
