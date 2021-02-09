@@ -342,7 +342,7 @@ export default class Boeing extends React.Component {
                                         made as they moved items across the screen. These were three 
                                         main interactions I considered:
                                     </p>
-                                    <img src='./img/boeing/interaction-design.png' alt='pros and cons of different interaction options' />
+                                    <img className='forty-eight' src='./img/boeing/interaction-design.png' alt='pros and cons of different interaction options' />
                                     <p className='forty-eight'>Ultimately, I went with dragging and dropping the resource cards 
                                         onto the corresponding column for a particular stall (rows). 
                                         Since the main goal is for users to be able to quickly understand 
@@ -353,10 +353,10 @@ export default class Boeing extends React.Component {
                                         such as the lack of precision, I made sure to follow best practices
                                         ensuring ease of use.
                                     </p>
-                                    <img src='./img/boeing/drag-drop_guide.png' alt='best practices when using drag and drop interactions' />
+                                    <img className='forty-eight' src='./img/boeing/drag-drop_guide.png' alt='best practices when using drag and drop interactions' />
                                     <p className='forty-eight'>Trello provides a similar use case, where an item is assigned by drag &amp; drop to different target areas.</p>
                                     <img src='./img/boeing/trello.png' alt='screen shot of Trello application' />
-                                    <p>Some additional features to further improve the ease of access to information include:</p>
+                                    <p className='forty-eight'>Some additional features to further improve the ease of access to information include:</p>
                                     <p>1. Re-arranging stalls with shared resources next to each other 
                                         on the screen. This eliminates the need to use small, often 
                                         indistinguishable icons to indicate resource-sharing or ‘grouped’ 
@@ -381,12 +381,104 @@ export default class Boeing extends React.Component {
                                         and filters for those who wish to simplify the view to 
                                         information pertaining to themselves.
                                     </p>
-                                    <img src='./img/boeing/MyPlan.png' alt='hi-fi of My Plan page'/>
+                                    <img className='forty-eight' src='./img/boeing/MyPlan.png' alt='hi-fi of My Plan page'/>
+                                </div>
+                                <div className='break'>
+                                    <p className='label'>STEP III: DISTRIBUTING THE PLAN</p>
+                                    <p>Once all the necessary information has been inputted, the 
+                                        final step in the planning process is for managers to print 
+                                        and distribute the plan to the team. Currently the SDC is 
+                                        working with printouts on an 8.5”x11” piece of paper, 
+                                        double-sided in order to avoid the need for stapling. 
+                                        Despite one of their top challenges being the struggle to 
+                                        fit all the relevant information onto a sheet of paper while 
+                                        keeping the page legible, managers were adamant about keeping 
+                                        he current font and paper size. This put me in an interesting 
+                                        predicament, as the amount of information users wanted on the 
+                                        page with the given criteria would be difficult to accommodate 
+                                        for even by changing the layout.
+                                    </p>
+                                    <img className='forty-eight' src='./img/boeing/math-lady-meme.png' alt='confused math lady meme' />
+                                    <p className='forty-eight'>Jokes aside, I had a few thoughts on how to improve the printout:</p>
+                                    <p>• Improve the overall readability without drastically changing the current format</p>
+                                    <p>• Allow for flexibility in the amount of content that can be fitted onto the page</p>
+                                    <p>• Tailor the reading experience to the users that are consuming the information</p>
+                                    <p className='forty-eight'>I wanted the printout to have best reading experience for it’s 
+                                        intended audience, which are workers out in the delivery fields. 
+                                        Unlike their managers, field workers did not always have easy 
+                                        access to software, and the printout is often all that they have. 
+                                        Upon receiving the printout at the shift start meeting, an 
+                                        employee’s thought process would typically be as follows:
+                                    </p>
+                                    <img className='forty-eight' src='./img/boeing/reading-flow.png' alt='reading flow' />
+                                    <p className='forty-eight'>While some workers may go a step further to glance at their 
+                                        statement of work, or verify the airplane they are assigned 
+                                        to, most just think about heading to their assigned area and 
+                                        getting started. To better adjust the printout to follow the 
+                                        worker’s mental model, I re-arranged the columns so that 
+                                        employee names showed first, as opposed to starting with 
+                                        airplane information which better suits the need of managers. 
+                                        I also re-organized the hierarchy of information, placing the 
+                                        more emphasis on the stall number so that workers can spot it 
+                                        quicker on the page.
+                                    </p>
+                                    <img className='forty-eight' src='./img/boeing/CrewList.png' alt='hi-fi of Crew List page' />
+                                    <p className='forty-eight'>To address overflow content, I wanted to enable users to make 
+                                        decisions on what information would make it onto the printout. 
+                                        Unlike Excel which is a readily printable file type, my dev 
+                                        team had decided to auto-generate the information from PMC 
+                                        into a printable format. By embedding a PDF preview of the 
+                                        printout on the main section, users could then use options 
+                                        listed in the side sheet to show and hide elements on the 
+                                        page in order to get everything fitted onto a single sheet 
+                                        of paper.
+                                    </p>
+                                </div>
+                                <div className='break'>
+                                    <h3 className='section-title'>Reflection</h3>
+                                    <p>As my first major project with the company, one challenge I 
+                                        faced was understanding Boeing’s various business requirements 
+                                        to ensure compliance and conformance to standards. While I’ve 
+                                        worked with gathering business needs in the past, the complexity 
+                                        involved with specific conditions and scenarios was overwhelming 
+                                        at times for someone without prior experience in the manufacturing 
+                                        industry. Unlike working with consumer products where I can more 
+                                        easily empathize by drawing from my own experience as a consumer, 
+                                        my users stem from a specialized workforce with unique needs and 
+                                        context that could only be understood through thorough user research.
+                                    </p>
+                                    <p>Another obstacle I constantly faced was changing the culture 
+                                        around how products are adopted. As a company in its early 
+                                        stages of leveraging a user-centric mindset, many of my users 
+                                        as well as stakeholders had the impression that software 
+                                        could be enforced through management standardization instead 
+                                        of adoption through improving its usability. While this is 
+                                        true to some degree when legacy systems are retired to make 
+                                        room for newer software, this approach ultimately misses the 
+                                        value that UCD brings by having a product solve real problems 
+                                        for its users. If the team had just continued with the COTS 
+                                        version of the application, wrapping it under the guise of a 
+                                        new UI packaging, we would’ve created extra burden on the users 
+                                        who in turn could simply go back to their inefficient process 
+                                        of planning.
+                                    </p>
+                                    <p>Whether it’s designing for consumer or enterprise, the basis 
+                                        for a good product will always be measured by the value it 
+                                        brings to its user. Through this project I have come to 
+                                        understand and appreciate the importance of grounding a product 
+                                        around user problems. While it may still be in a company’s 
+                                        interest to keep up with competitors or the latest in the 
+                                        industry, a product cannot not stand by building features 
+                                        without delivering value to users. 
+                                    </p>
+                                    <p className='montserrat break'>“Don’t find customers for your products, find products for your customers.” — Seth Godin</p>
+                                    <div className='break'></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
