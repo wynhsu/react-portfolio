@@ -68,47 +68,51 @@ export default class Boeing extends React.Component {
                             </div>
                             <div className='col-md-8'>
                                 <div className='break'>
-                                    <p className='montserrat'>How might we engage managers to adopt
-                                     and leverage a new software system in order to reduce the amount
-                                      of time spent on daily planning activities?</p>
+                                    <p className='montserrat'>How might we help operations managers 
+                                    reduce the amount of time spent on daily planning activities?</p>
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>Background</h3>
-                                    <p>As part of the company’s vision to modernize their ways of 
-                                        manufacturing operations management, Boeing has invested in 
-                                        a COTS product from Dassault Systèmes comprising a number of 
-                                        different web browser applications. I was brought on as the 
-                                        lead designer to assess and improve the usability of one of 
-                                        the product’s core application called the Production Monitoring 
-                                        Console (PMC), which is used to account for the management of 
-                                        daily planning activities such as attendance, job assignments, 
-                                        and resource allocation.
+                                    <p>As part of the company’s vision to modernize factory operations, 
+                                        Boeing invested in a COTS software to handle its manufacturing 
+                                        operations management (MOM). One of applications in the suite 
+                                        was Production Monitoring Console (PMC), used for the management 
+                                        of daily planning activities such as attendance, job assignments, 
+                                        and resource allocations.
                                     </p>
                                 </div>
                                 <div className='break'>
-                                    <h3 className='section-title'>Project Goal</h3>
-                                    <p>In its original and off-the-shelf design, PMC was planned for 
-                                        use in a specific business unit of the company. My team was 
-                                        directed to evaluate and adjust the existing capabilities of 
-                                        PMC, in order to tailor the application as a viable solution 
-                                        for supporting the flight line and field delivery operations.
-                                    </p>
-                                    <p>The business also wanted to eliminate any additional expenses from
-                                        having to maintain numerous different legacy applications or services
-                                        used for daily planning currently, by consolidating all existing 
-                                        software needs into a one-stop-shop solution with PMC.
+                                    <h3 className='section-title'>The Mission</h3>
+                                    <p>As a cost savings initiative, the business wants to eliminate the 
+                                        maintenance of disparate software systems by consolidating all 
+                                        existing applications and services into a one-stop-shop. My team 
+                                        was directed to evaluate and adjust the existing capabilities of 
+                                        PMC, in order to tailor the application as a viable solution for 
+                                        supporting flight line and delivery operations.
                                     </p>
                                 </div>
                                 <div className='break'>
-                                    <h3 className='section-title'>Problem Discovery</h3>
-                                    <p>I began my research with a few contextual inquiries to better 
-                                        understand the current planning process. I then scheduled 
-                                        semi-structured interviews to follow-up on outstanding 
-                                        questions and validate observed assumptions. Lastly I conducted
-                                        several usability tests on the original PMC application to 
-                                        better understand where the current design fell short, and 
-                                        utilized System Usability Scale surveys to capture a quantifiable
-                                        baseline to measure our progress against.
+                                    <h3 className='section-title'>My Role</h3>
+                                    <p>I was brought on as the sole designer to assess software gaps to 
+                                        the business process, and to make usability improvements on the 
+                                        application. Aside from leading team through an end-to-end design 
+                                        process from user research to visual design, I also worked very 
+                                        closely with product management on strategy and vision towards 
+                                        scaling the solution at an enterprise level.
+                                    </p>
+                                </div>
+                                <div className='break'>
+                                    <h3 className='section-title'>My Users</h3>
+                                    <p>My primary users were first line managers from operations. I 
+                                        included a sample of managers across all shifts as part of my 
+                                        research to account for any potential differences in context 
+                                        and needs, but ultimately chose to focus on first shift managers 
+                                        as they most frequently handled scenarios with high-complexity 
+                                        (airplane moves, emergent flights, larges staff, etc.).
+                                    </p>
+                                    <p>My goal was to learn about how daily planning was conducted under 
+                                        current process, and identify opportunities where PMC could be 
+                                        leveraged to improve the planning experience.
                                     </p>
                                     <div className='row forty-eight'>
                                         <div className='col-md-1 stats'>
@@ -136,88 +140,62 @@ export default class Boeing extends React.Component {
                                             SUS Surveys
                                         </div>
                                     </div>
-                                    <p className='forty-eight'>My primary users were operations managers at the Seattle Delivery 
-                                        Center (SDC), with quality managers as a secondary group. While I 
-                                        made sure to include a sample of managers across all shifts to account
-                                        for any potential differences in context and needs, I tailored my 
-                                        user persona and journey map towards first shift managers as they 
-                                        most often had to handle high-complexity scenarios compared to others.
-                                    </p>
+                                </div>
+                                <div className='forty-eight'>
+                                    <img src='./img/boeing/Persona.png' alt='operations manager persona'/>
                                 </div>
                                 <div className='break'>
-                                    {/* <img src='http://drive.google.com/uc?export=view&id=1lnDId0nNWeogOSAbtzYQFGMIWJiDdZSj' /> */}
-                                    <img src='./img/boeing/cPersona.png' alt='operations manager persona'/>
-                                </div>
-                                <div className='break'>
-                                    <img src='user-journey.png' alt='user journey map' />
-                                </div>
-                                <div className='break'>
-                                    <h3 className='section-title'>Top Challenges</h3>
+                                    <h3 className='section-title'>Top Problems</h3>
                                     <p className='label'>FRAGMENTED INFORMATION SOURCES</p>
-                                    <p>In its original and off-the-shelf design, PMC was planned for 
-                                        use in a specific business unit of the company. My team was 
-                                        directed to evaluate and adjust the existing capabilities of 
-                                        PMC, in order to tailor the application as a viable solution 
-                                        for supporting the flight line and field delivery operations.
+                                    <p>Managers were frustrated with having to search through various 
+                                        applications to piece together  information when coming up with 
+                                        a plan. Not only was it burdensome to have to remember what each 
+                                        application entailed, the lack of documentation meant brand new 
+                                        manager would require significant additional hours of training 
+                                        to onboard.
                                     </p>
                                     <div className='forty-eight'></div>
                                     <p className='label'>NEED FOR REAL-TIME COLLABORATION</p>
-                                    <p>Managers had several issues with Excel’s co-authoring feature,
-                                        and at the top was the lag that came with the file being hosted
-                                        on a shared server. Managers found themselves waiting for 
-                                        changes to be reflected, and on top of that the file itself 
-                                        was prone to crashing without means of recovery. To better 
-                                        ensure success in planning, managers would come in office 
-                                        an hour prior to their designated start time. For an activity 
-                                        that should only take about fifteen minutes to complete, 
-                                        it made little sense for the company to be expending so much 
-                                        of a manager’s time.
+                                    <p>The performance and stability of the existing software was very 
+                                        poor and did not support live collaboration. Managers found 
+                                        themselves sitting idle waiting for changes to be reflected in 
+                                        the system, only for it to crash without any means of recovery. 
+                                        Many opted to come in the office an hour prior to their designated 
+                                        start times in anticipation of such software failures.
                                     </p>
                                     <div className='forty-eight'></div>
                                     <p className='label'>DIFFERING BUSINESS CONTEXT</p>
-                                    <p>Through the various usability tests, it became clear that the 
-                                        original PMC application did not share the same frame of reference 
-                                        to what managers were used to working with. At the SDC, managers 
-                                        needed visibility of various moving pieces at a high-level. In 
-                                        contrast, the original product design required users to drill 
-                                        down to focus on lower-level details that managers weren’t 
-                                        typically worried about. This meant that instead of reducing 
-                                        the burden of the existing process, the product would actually 
-                                        be creating more work.
+                                    <p>Usability testing PMC as a COTS product provided insights to my 
+                                        user’s mindset. Instead of presenting information at a high-level, 
+                                        PMC required users to drill down to focus on details that managers 
+                                        weren’t typically worried about. This meant that instead of reducing 
+                                        the burden of the existing process, the product would actually be 
+                                        creating more work.
                                     </p>
                                     <div className='forty-eight'></div>
-                                    <p className='label'>BONUS: RELIANCE ON PAPER PRINTOUTS</p>
-                                    <p>The final output of the process was a single sheet printout 
-                                        that could be shared with all employees of the SDC. Since 
-                                        not all employees had access to stable internet or mobile 
-                                        devices while performing work on airplanes out in the field, 
-                                        a print copy of the plan was crucial for managers to be able 
-                                        to communicate the daily plan. Since my team was not budgeted 
-                                        to devise a strategy for factory mobile devices, we decided 
-                                        this particular challenge was outside the project scope.
+                                    <p className='label'>OUT OF SCOPE - RELIANCE ON PAPER PRINTOUTS</p>
+                                    <p>Since not all employees had access to stable internet or mobile 
+                                        devices while performing work on airplanes in the flight line, 
+                                        a printed paper copy was crucial for managers to be able to 
+                                        communicate the daily plan. This particular challenge is part 
+                                        of a greater effort to enable mobile devices on the factory floor, 
+                                        and thus was not prioritized by our team.
                                     </p>
                                 </div>
+                                <div className='forty-eight'>
+                                    <img src='user-journey.png' alt='user journey map' />
+                                </div>
                                 <div className='break'>
-                                    <h3 className='section-title'>Solution Framing</h3>
-                                    <p>The business had initially planned for our team to provide 
-                                        incremental enhancements to the PMC application in order to 
-                                        bridge any functional gaps with our user’s needs — an approach 
-                                        that quickly failed after a few sessions of user testing. 
-                                        Being a COTS product, it was difficult to balance the needs 
-                                        of my users with what was technical feasible for my developers. 
-                                        Despite my efforts to work with the original application’s 
-                                        limitations, most users still felt that PMC wasn’t designed 
-                                        for their context, and did not want to use something that 
-                                        would actually increase the amount of work they had to do.
+                                    <h3 className='section-title'>The Approach</h3>
+                                    <p>After presenting the research insights to my product management 
+                                        and business stakeholders, the team was given an opportunity to 
+                                        re-think the original PMC design. 
                                     </p>
                                     <p className='montserrat forty-eight'>Managers need a one-stop-shop that 
                                         consolidates relevant information for planning and responds 
                                         quickly to user input.
                                     </p>
-                                    <p className='forty-eight'>After presenting the research insights with business stakeholders,
-                                         we were given an opportunity to re-think the current design 
-                                         with less emphasis on being constrained to the existing 
-                                         application. Based on my research, I focused on three key 
+                                    <p className='forty-eight'>Based on my research, I focused on three key 
                                          design goals:
                                     </p>
                                     <div className='row forty-eight'>
@@ -238,238 +216,178 @@ export default class Boeing extends React.Component {
                                     </div>
                                 </div>
                                 <div className='break'>
-                                    <h3 className='section-title'>Core Experiences</h3>
-                                    <p className='label'>STEP I: TRACKING LABOR</p>
-                                    <p>Before creating the daily plan, managers first needed to know
-                                        which individuals on the team were available to be assigned 
-                                        work. To do so, managers relied on a mix of emails, phone 
-                                        calls, text messages, and HR systems to stay informed. Since 
-                                        the Excel file was not linked to any particular tool, managers 
-                                        were expected to understand the macros put in place to 
-                                        accurately reflect the day’s attendance.
+                                    <h3 className='section-title'>The Experience</h3>
+                                    <p className='font-italic'>Due to PMC being Boeing proprietary software I’m unable to 
+                                        display the actual finished designs at this time
                                     </p>
-                                    <p>The Excel macros were scripted in a way that made users to have 
-                                        to scroll extensively up and down the sheet, and at times even 
-                                        navigate to different sheets entirely, in search for needed 
-                                        information. Once found, users would then have to get back to 
-                                        their original spot within the file and recall the information 
-                                        while manually entering it. There was no way to validate the 
-                                        correct employee entity, check for spelling errors, or provide 
-                                        notice for duplicate records.
+                                    <p className='label forty-eight'>STEP I: TRACKING LABOR</p>
+                                    <p>In order to begin planning, managers first needed to know which 
+                                        employees were present and available to be assigned work for 
+                                        the day. The current design forced users to scroll extensively 
+                                        in search of information, occasionally even needing to navigate 
+                                        to a different page completely. Once found, users would then have 
+                                        to find their way back to their original place and recall the 
+                                        information while manually inputting it. There was no way to 
+                                        validate the correct employee entity, check for spelling errors, 
+                                        or have awareness of duplicate records another manager may have 
+                                        already entered. 
                                     </p>
-                                    <img className='forty-eight' src="./img/boeing/wireframe_MyTeam.svg" alt="wireflow for My Team" />
-                                    <p className='forty-eight'>The most straight forward solution was for PMC to integrate 
-                                        directly with the company’s attendance systems. This would 
-                                        remove concerns around manual employee verification, and 
-                                        automate the attendance tracking process entirely. With this 
-                                        approach, I could then focus on designing the interaction 
-                                        for making manual adjustments to the attendance information. 
-                                        My design goals were to:
-                                    </p>
+                                    <p className='forty-eight'>My design goals for improving the manual adjustment of daily attendance were to:</p>
                                     <p>• Reduce the frequency of manual data entry</p>
                                     <p>• Remove the barrier to entry from needing to know Excel macros</p>
                                     <p>• Improve information way finding by simplifying navigation </p>
-                                    <img className='forty-eight' src="./img/boeing/MyTeam_main.png" alt="hi-fi of My Team page" />
-                                    <p className='forty-eight'>I used a single-page view here, as it most effectively combines 
-                                        multiple actions without the need to navigate away to other 
-                                        pages of the application. Employees are added into the system 
-                                        via ID look up, and once added users would drag and drop the 
-                                        entity to one of the four categories: present, absent, loaned, 
-                                        or certifying. No manual data entry is required.
+                                    <p className='forty-eight'>I decided to go with a single-page view 
+                                        as it was effective at consolidating the user’s information needs 
+                                        and common tasks into one cohesive experience. Most importantly, 
+                                        it removed the burden of navigation to other pages. Employees can 
+                                        be added via ID look up that’s integrated with the Boeing HR system, 
+                                        at which point managers would simply drag and drop each entity to one 
+                                        of the four attendance statuses. No manual data entry or prior 
+                                        familiarity with the roster is needed.
                                     </p>
-                                    <img className='forty-eight' src="./img/boeing/MyTeam_config.png" alt="hi-fi of My Team configuration page" />
-                                    <p className='forty-eight'>Employee configurations such as 
-                                        certifications and skill sets are accessed by selecting a name 
-                                        from the left side sheet. The side sheet always persist in view 
-                                        to ensure better discoverability of the employee configurations. 
-                                        Depending on the item selected the right-side view would then 
-                                        change accordingly, a common pattern taken from many popular chat 
-                                        room applications. For better form readability I split the view 
-                                        further into two halves: the left for the user to focus on data 
-                                        entry, and the right for reference while inputting information. 
-                                        Lastly, I added the multi-selection of employees as an accelerator 
-                                        to configuration of multiple individuals at once.
+                                    <img className='forty-eight' 
+                                        src="./img/boeing/Assign_Employee_Attendance.svg" 
+                                        alt="wireflow for assigning employee attendance" />
+                                    <p className='forty-eight'>Using a side panel layout similar to 
+                                        many dashboard and chat room applications, users can select one 
+                                        or more employees to configure their personal information. The 
+                                        selected employee profiles would display on the main section view 
+                                        of the screen while the side panel stays in view, allowing users 
+                                        to quickly go between screens without having to wait for page reloads.
                                     </p>
+                                    <img className='forty-eight' 
+                                        src="./img/boeing/Employee_Config.svg" 
+                                        alt="wireframe for employee configurations" />
                                 </div>
                                 <div className='break'>
                                     <p className='label'>STEP II: MANAGING THE PLAN</p>
-                                    <p>Managers needed to have clear visibility and ease of access 
-                                        to various moving pieces of information in order to be ready 
-                                        to respond at a moments notice. When usability testing the 
-                                        original PMC application, many users expressed frustrations 
-                                        around having to navigate to different pages in order to find 
-                                        information or make edits. Even though everything was encapsulated 
-                                        into one application, the burden of having to know where to 
-                                        go to access information in a new environment meant it was not 
-                                        much better than the existing process. Similar to taking 
-                                        attendance, users still had to deal with the same Excel macros 
-                                        and navigation issues from before.
+                                    <p>Managers needed to have clear visibility to various moving pieces 
+                                        out on the flight line in order to be ready to respond at a moments 
+                                        notice. When baseline usability testing the original design, many 
+                                        users expressed frustrations around having to navigate to different 
+                                        pages in order to find information or make edits. Despite everything 
+                                        being encapsulated into one application, the information architecture 
+                                        failed to match the user’s process and mental model.
                                     </p>
-                                    <p>This particular step in the process contained many sub-tasks 
-                                        that do not follow a predictable order. Managers have to account 
-                                        for the matters such as the assignments of airplanes, employees, 
-                                        as well as determining the statements of work for the day — any 
-                                        of which could be adjusted in reaction to schedule delays, weather 
-                                        conditions, or insufficient labor. The complex nature of the tasks 
-                                        at hand also meant the view was packed with information that was 
-                                        not very easy to find. This was especially noticeable if managers 
-                                        have a busy day, as the lack of information hierarchy resulted in 
-                                        an intimidating cluster of text that made the file difficult to 
-                                        use effectively.
+                                    <p>This particular step in the process also contained many sub-tasks 
+                                        that do not follow a predictable order of precedence. Managers 
+                                        have to account for the location of airplanes, assignment employees, 
+                                        as well as determining the statements of work for the day — any of 
+                                        which could be adjusted in reaction to schedule delays, weather 
+                                        conditions, or insufficient labor resources. The complex nature of 
+                                        the tasks at hand also meant the view was packed with information 
+                                        that was not very easy to find. This was especially noticeable if 
+                                        managers have a busy day, as the lack of information hierarchy 
+                                        resulted in an intimidating cluster of text that made the application 
+                                        difficult to use effectively.
                                     </p>
-                                    <img className='forty-eight' src="./img/boeing/layout-design.svg" alt="wireframe options for My Plan" />
                                     <p className='forty-eight'>The three key principles I kept in mind when designing this view were:</p>
                                     <p>• Provide better information organization and hierarchy</p>
                                     <p>• Consolidate the segmentation of information sources</p>
                                     <p>• Maintain visibility to key information</p>
                                     <p className='forty-eight'>I tested a few different layout variations, 
-                                        with the goal of determining the most effective way to organize 
-                                        the information in a clear hierarchy. The 4 column grid-layout 
-                                        that I went with made the most sense, as stall numbers would 
-                                        the unique identifier users scan for when first beginning any 
-                                        assignment. Like with the attendance screen, I used a single-page 
-                                        view — this time with a tabbed side sheet — to support having 
-                                        many possible actions on the page without needing to navigate away.
+                                        with the goal of determining the best way to organize the information 
+                                        in a clear hierarchy. In the end, I went with the 4 column grid-layout 
+                                        as it was most effective when it came to finding information. Stall 
+                                        numbers are listed as the first column for users scan through when 
+                                        first beginning an assignment. Once users has identified the stall 
+                                        they need to work with, the rest of the information follows naturally 
+                                        from left to right.
                                     </p>
-                                    <p>Inside the side sheet contained airplane and employee information 
-                                        on cards. I wanted to provide immediate visibility to available 
-                                        resources in order to help users establish a clear mental model 
-                                        of where to look for assignable items, as opposed to making users 
-                                        expand a dropdown list.
+                                    <img className='forty-eight' 
+                                        src="./img/boeing/Planning_Layout_Design_Options.svg" 
+                                        alt="wireframe options for plan management interface" />
+                                    <p className='forty-eight'>Like with the attendance screen, I used a 
+                                        single-page view to support having many actionables on the page without 
+                                        needing to navigate away. Using a side panel, I hoped to provide users 
+                                        with immediate visibility to the assignable items, as opposed to guessing 
+                                        what options are available in a dropdown list like the original design.
                                     </p>
-                                    <p>To make the ‘assign’ task an easily learnable interaction, I 
-                                        wanted users to be able to visualize the associations being 
-                                        made as they moved items across the screen. These were three 
-                                        main interactions I considered:
+                                    <p>To make the ‘assign’ task an easily learnable interaction, I wanted users 
+                                        to be able to visualize the associations of entities as changes were being 
+                                        made on the screen. These were three main interactions I explored and tested:
                                     </p>
-                                    <img className='forty-eight' src='./img/boeing/interaction-design.png' alt='pros and cons of different interaction options' />
-                                    <p className='forty-eight'>Ultimately, I went with dragging and dropping the resource cards 
-                                        onto the corresponding column for a particular stall (rows). 
-                                        Since the main goal is for users to be able to quickly understand 
-                                        how to move objects to different areas on the screen, this 
-                                        interaction would draw from my user’s existing understanding and 
-                                        familiarity with Windows (especially in regard to how file 
-                                        management works). To account for the drawbacks of this interaction,
-                                        such as the lack of precision, I made sure to follow best practices
-                                        ensuring ease of use.
+                                    <img className='forty-eight' 
+                                        src='./img/boeing/interaction-design.png' 
+                                        alt='pros and cons of different interaction options' />
+                                    <p className='forty-eight'>I went with the drag and drop interaction as it 
+                                        tested the best with users. Since the main goal is for users to be able to 
+                                        quickly understand how to move objects to different areas on the screen, 
+                                        it made sense why this interaction was the most well received as it drew 
+                                        from most manager’s existing understanding and familiarity with Windows 
+                                        (particularly in regard to how file management works). To account for 
+                                        the drawbacks of this interaction such as the lack of precision, I made 
+                                        sure to follow practices that promoted better ease of use.
                                     </p>
                                     <img className='forty-eight' src='./img/boeing/drag-drop_guide.png' alt='best practices when using drag and drop interactions' />
-                                    <p className='forty-eight'>Trello provides a similar use case, where an item is assigned by drag &amp; drop to different target areas.</p>
-                                    <img src='./img/boeing/trello.png' alt='screen shot of Trello application' />
-                                    <p className='forty-eight'>Some additional features to further improve the ease of access to information include:</p>
-                                    <p>1. Re-arranging stalls with shared resources next to each other 
-                                        on the screen. This eliminates the need to use small, often 
-                                        indistinguishable icons to indicate resource-sharing or ‘grouped’ 
-                                        stalls, and saves the user time by not having to play a memory 
-                                        game each time to get this information.
-                                    </p>
-                                    <p>2. Incorporating airplane schedule information graphically as 
-                                        part of PMC, allowing for a more streamlined planning experience 
-                                        by eliminating the need for users to go and search for that 
-                                        information in another system.
-                                    </p>
-                                    <p>3. Highlighting employee skill sets and specialties, so that 
-                                        managers have an easier time determining who should be assigned 
-                                        to a particular job — again without having to open a separate 
-                                        system.
-                                    </p>
-                                    <p>4. Integrating with the real-time airplane tracker system, 
-                                        so that the only planes being displayed in the system are 
-                                        the ones that currently have jobs that need to be completed.
-                                    </p>
-                                    <p>5. Column searches for users looking for specific information, 
-                                        and filters for those who wish to simplify the view to 
-                                        information pertaining to themselves.
-                                    </p>
-                                    <img className='forty-eight' src='./img/boeing/MyPlan.png' alt='hi-fi of My Plan page'/>
                                 </div>
                                 <div className='break'>
                                     <p className='label'>STEP III: DISTRIBUTING THE PLAN</p>
-                                    <p>Once all the necessary information has been inputted, the 
-                                        final step in the planning process is for managers to print 
-                                        and distribute the plan to the team. Currently the SDC is 
-                                        working with printouts on an 8.5”x11” piece of paper, 
-                                        double-sided in order to avoid the need for stapling. 
-                                        Despite one of their top challenges being the struggle to 
-                                        fit all the relevant information onto a sheet of paper while 
-                                        keeping the page legible, managers were adamant about keeping 
-                                        he current font and paper size. This put me in an interesting 
-                                        predicament, as the amount of information users wanted on the 
-                                        page with the given criteria would be difficult to accommodate 
-                                        for even by changing the layout.
+                                    <p>The final step in the planning process is for managers to print and 
+                                        distribute the plan to the team. As I mentioned earlier, it was out 
+                                        of our team’s budget and scope to enable a paper-free process at this 
+                                        time. Nevertheless, we still hoped to lessen some of the burdens in 
+                                        this step of the process.
+                                    </p>
+                                    <p>Despite one of their top challenges being the struggle to fit all the 
+                                        relevant information onto a sheet of paper while keeping the page legible, 
+                                        managers were adamant about keeping the current font and paper size. This 
+                                        put me in an interesting predicament...
                                     </p>
                                     <img className='forty-eight' src='./img/boeing/math-lady-meme.png' alt='confused math lady meme' />
                                     <p className='forty-eight'>Jokes aside, I had a few thoughts on how to improve the printout:</p>
                                     <p>• Improve the overall readability without drastically changing the current format</p>
                                     <p>• Allow for flexibility in the amount of content that can be fitted onto the page</p>
                                     <p>• Tailor the reading experience to the users that are consuming the information</p>
-                                    <p className='forty-eight'>I wanted the printout to have best reading experience for it’s 
-                                        intended audience, which are workers out in the delivery fields. 
-                                        Unlike their managers, field workers did not always have easy 
-                                        access to software, and the printout is often all that they have. 
-                                        Upon receiving the printout at the shift start meeting, an 
-                                        employee’s thought process would typically be as follows:
+                                    <p className='forty-eight'>I wanted the printout to have best reading experience 
+                                        for it’s intended audience – which are workers out in the delivery fields. 
+                                        Unlike their managers, field workers did not always have easy access to software, 
+                                        and the printout is often all that they have. Upon receiving the printout at the 
+                                        shift start meeting, an employee’s thought process would typically be as follows:
                                     </p>
-                                    <img className='forty-eight' src='./img/boeing/reading-flow.png' alt='reading flow' />
-                                    <p className='forty-eight'>While some workers may go a step further to glance at their 
-                                        statement of work, or verify the airplane they are assigned 
-                                        to, most just think about heading to their assigned area and 
-                                        getting started. To better adjust the printout to follow the 
-                                        worker’s mental model, I re-arranged the columns so that 
-                                        employee names showed first, as opposed to starting with 
-                                        airplane information which better suits the need of managers. 
-                                        I also re-organized the hierarchy of information, placing the 
-                                        more emphasis on the stall number so that workers can spot it 
-                                        quicker on the page.
+                                    <img className='forty-eight' src='./img/boeing/reading-flow.png' alt='reading flow of airplane mechanics' />
+                                    <p className='forty-eight'>While some workers may go a step further to 
+                                        glance at their statement of work or verify the airplane they are assigned 
+                                        to, most just thought about heading to their assigned area and getting started. 
+                                        To better adjust the printout to follow the worker’s mental model, I re-arranged 
+                                        the columns so that employee names showed first, as opposed to starting with 
+                                        airplane information which better suits the need of managers. I also re-organized 
+                                        the hierarchy of information, placing the more emphasis on the stall number so 
+                                        that workers can spot it quicker on the page.
                                     </p>
-                                    <img className='forty-eight' src='./img/boeing/CrewList.png' alt='hi-fi of Crew List page' />
-                                    <p className='forty-eight'>To address overflow content, I wanted to enable users to make 
-                                        decisions on what information would make it onto the printout. 
-                                        Unlike Excel which is a readily printable file type, my dev 
-                                        team had decided to auto-generate the information from PMC 
-                                        into a printable format. By embedding a PDF preview of the 
-                                        printout on the main section, users could then use options 
-                                        listed in the side sheet to show and hide elements on the 
-                                        page in order to get everything fitted onto a single sheet 
-                                        of paper.
+                                    <p>To address overflow content, I enable users to make decisions on what information 
+                                        would make it onto the printout. By displaying the PDF preview of the printout, 
+                                        users could then decide for themselves what elements on the page to show or hide 
+                                        in order to get everything fitted onto a single sheet of paper. 
                                     </p>
+                                    <img className='forty-eight' 
+                                        src='./img/boeing/Print_Out_Config.png' 
+                                        alt='wireframe for print configurations' />
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>Reflection</h3>
-                                    <p>As my first major project with the company, one challenge I 
-                                        faced was understanding Boeing’s various business requirements 
-                                        to ensure compliance and conformance to standards. While I’ve 
-                                        worked with gathering business needs in the past, the complexity 
-                                        involved with specific conditions and scenarios was overwhelming 
-                                        at times for someone without prior experience in the manufacturing 
-                                        industry. Unlike working with consumer products where I can more 
-                                        easily empathize by drawing from my own experience as a consumer, 
-                                        my users stem from a specialized workforce with unique needs and 
-                                        context that could only be understood through thorough user research.
+                                    <p>As a new designer at Boeing I was privied to many unique challenges to overcome, 
+                                        one of which was working with the company’s various business requirements and 
+                                        manufacturing processes that ensure compliance with aviation standards. In order 
+                                        to keep up with the specialized workforce that made up my stakeholders and 
+                                        end-users, I needed to quickly grasp basic manufacturing concepts while also 
+                                        learning specific contexts and scenarios that were unique at Boeing. It was 
+                                        more important than ever that I facilitated each interaction with a beginner’s 
+                                        mindset, balancing respect for the experts in the field while being inquisitive 
+                                        when discovering problems and opportunities.
                                     </p>
-                                    <p>Another obstacle I constantly faced was changing the culture 
-                                        around how products are adopted. As a company in its early 
-                                        stages of leveraging a user-centric mindset, many of my users 
-                                        as well as stakeholders had the impression that software 
-                                        could be enforced through management standardization instead 
-                                        of adoption through improving its usability. While this is 
-                                        true to some degree when legacy systems are retired to make 
-                                        room for newer software, this approach ultimately misses the 
-                                        value that UCD brings by having a product solve real problems 
-                                        for its users. If the team had just continued with the COTS 
-                                        version of the application, wrapping it under the guise of a 
-                                        new UI packaging, we would’ve created extra burden on the users 
-                                        who in turn could simply go back to their inefficient process 
-                                        of planning.
+                                    <p>Over the course of this project, I’ve also matured my ability to demonstrate 
+                                        and advocate for the value that user-centered design brings to software 
+                                        development. Being the only designer on the team at a company in its early 
+                                        stages of adopting UCD, it was up to me to make sure that we focused on solving 
+                                        real problems for end-users and not be pushing out unvalidated features to code. 
                                     </p>
-                                    <p>Whether it’s designing for consumer or enterprise, the basis 
-                                        for a good product will always be measured by the value it 
-                                        brings to its user. Through this project I have come to 
-                                        understand and appreciate the importance of grounding a product 
-                                        around user problems. While it may still be in a company’s 
-                                        interest to keep up with competitors or the latest in the 
-                                        industry, a product cannot not stand by building features 
-                                        without delivering value to users. 
+                                    <p>Whether it’s designing for consumer or enterprise, the basis for a good product 
+                                        will always be measured by the value it brings to its user. Through this project 
+                                        I have further solidified my belief in the importance of grounding a product 
+                                        around user problems. While it may still be in a company’s interest to keep up 
+                                        with competitors or the latest in the industry, a product cannot not stand by 
+                                        building features without delivering value to users. 
                                     </p>
                                     <p className='montserrat break'>“Don’t find customers for your products, find products for your customers.” — Seth Godin</p>
                                     <div className='break'></div>
@@ -480,6 +398,6 @@ export default class Boeing extends React.Component {
                 </div>
                 <Footer />
             </div>
-        )
+        );
     }
 }
