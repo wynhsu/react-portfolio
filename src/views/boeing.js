@@ -141,8 +141,20 @@ export default class Boeing extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='forty-eight'>
-                                    <img src='./img/boeing/Persona.png' alt='operations manager persona'/>
+                                <div className='row forty-eight'>
+                                    <img className='col-md-4 align-middle' 
+                                        src='./img/boeing/Persona.png' 
+                                        alt='operations manager persona'/>
+                                    <div className='col-md-8'>
+                                        <p className='label'>GOALS</p>
+                                        <p>Maintain structure and order on day-to-day operations by planning ahead.</p>
+                                        <p>Ensure timely delivery of aircrafts through work optimization and resource prioritization.</p>
+                                        <p>Enable team members by providing accurate information and making on-the-spot decisions.</p>
+                                        <p className='forty-eight label'>NEEDS</p>
+                                        <p>Visibility of airplane location, crew assignments, and statement of work for each day.</p>
+                                        <p>Flexibility in planning to accommodate for emmergent variables like capacity and issues.</p>
+                                        <p>Better way to manage and update information on a daily basis.</p>
+                                    </div>
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>Top Problems</h3>
@@ -183,7 +195,7 @@ export default class Boeing extends React.Component {
                                     </p>
                                 </div>
                                 <div className='forty-eight'>
-                                    <img src='user-journey.png' alt='user journey map' />
+                                    <img src='user-journey.svg' alt='user journey map' />
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>The Approach</h3>
@@ -217,8 +229,8 @@ export default class Boeing extends React.Component {
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>The Experience</h3>
-                                    <p className='font-italic'>Due to PMC being Boeing proprietary software I’m unable to 
-                                        display the actual finished designs at this time
+                                    <p className='font-italic'>PMC is Boeing proprietary software, as such I’m unable to 
+                                        display the actual finished designs at this time.
                                     </p>
                                     <p className='label forty-eight'>STEP I: TRACKING LABOR</p>
                                     <p>In order to begin planning, managers first needed to know which 
@@ -246,7 +258,7 @@ export default class Boeing extends React.Component {
                                         familiarity with the roster is needed.
                                     </p>
                                     <img className='forty-eight' 
-                                        src="./img/boeing/Assign_Employee_Attendance.svg" 
+                                        src="./img/boeing/assign-attendance.png" 
                                         alt="wireflow for assigning employee attendance" />
                                     <p className='forty-eight'>Using a side panel layout similar to 
                                         many dashboard and chat room applications, users can select one 
@@ -256,7 +268,7 @@ export default class Boeing extends React.Component {
                                         to quickly go between screens without having to wait for page reloads.
                                     </p>
                                     <img className='forty-eight' 
-                                        src="./img/boeing/Employee_Config.svg" 
+                                        src="./img/boeing/configure-employee.png" 
                                         alt="wireframe for employee configurations" />
                                 </div>
                                 <div className='break'>
@@ -295,7 +307,7 @@ export default class Boeing extends React.Component {
                                         from left to right.
                                     </p>
                                     <img className='forty-eight' 
-                                        src="./img/boeing/Planning_Layout_Design_Options.svg" 
+                                        src="./img/boeing/layout-design.png" 
                                         alt="wireframe options for plan management interface" />
                                     <p className='forty-eight'>Like with the attendance screen, I used a 
                                         single-page view to support having many actionables on the page without 
@@ -319,7 +331,9 @@ export default class Boeing extends React.Component {
                                         the drawbacks of this interaction such as the lack of precision, I made 
                                         sure to follow practices that promoted better ease of use.
                                     </p>
-                                    <img className='forty-eight' src='./img/boeing/drag-drop_guide.png' alt='best practices when using drag and drop interactions' />
+                                    <img className='forty-eight' 
+                                        src='./img/boeing/drag-drop-guidance.png' 
+                                        alt='best practices when using drag and drop interactions' />
                                 </div>
                                 <div className='break'>
                                     <p className='label'>STEP III: DISTRIBUTING THE PLAN</p>
@@ -345,7 +359,7 @@ export default class Boeing extends React.Component {
                                         and the printout is often all that they have. Upon receiving the printout at the 
                                         shift start meeting, an employee’s thought process would typically be as follows:
                                     </p>
-                                    <img className='forty-eight' src='./img/boeing/reading-flow.png' alt='reading flow of airplane mechanics' />
+                                    <img className='forty-eight' src='./img/boeing/reading-flow.svg' alt='reading flow of airplane mechanics' />
                                     <p className='forty-eight'>While some workers may go a step further to 
                                         glance at their statement of work or verify the airplane they are assigned 
                                         to, most just thought about heading to their assigned area and getting started. 
@@ -361,7 +375,7 @@ export default class Boeing extends React.Component {
                                         in order to get everything fitted onto a single sheet of paper. 
                                     </p>
                                     <img className='forty-eight' 
-                                        src='./img/boeing/Print_Out_Config.png' 
+                                        src='./img/boeing/configure-print.png' 
                                         alt='wireframe for print configurations' />
                                 </div>
                                 <div className='break'>
