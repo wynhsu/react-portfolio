@@ -195,7 +195,7 @@ export default class Boeing extends React.Component {
                                     </p>
                                 </div>
                                 <div className='forty-eight'>
-                                    <img src='user-journey.svg' alt='user journey map' />
+                                    <img src='user-journey.png' alt='user journey map' />
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>The Approach</h3>

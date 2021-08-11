@@ -63,7 +63,7 @@ export default class Home extends React.Component {
                             <h1 className="text-center">Hello! I'm Wynston.</h1>
                             <h4 className="text-center p-4">I'm a Product Designer at Boeing and an alumni of UW Informatics.</h4>
                         </div>
-                        <Card link={constants.images.breez} route={constants.routes.Boeing} name={"boeing"} />
+                        <Card link={constants.images.boeing} route={constants.routes.Boeing} name={"boeing"} />
                         <Card link={constants.images.breez} route={constants.routes.Breez} name={"breez"} />
                         <Card link={constants.images.weEat} route={constants.routes.WeEat} name={"weEat"} />
                         <Card link={constants.images.foodie} route={constants.routes.Foodie} name={"foodieFanatic"} />
