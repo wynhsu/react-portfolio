@@ -217,12 +217,12 @@ export default class Boeing extends React.Component {
                                         </div>
                                         <div className='col-md-1'></div>
                                         <div className='col-md-3'>
-                                            <img src="./img/boeing/system.svg" alt="system icon" />
+                                            <img className='icons' src="./img/boeing/system.svg" alt="system icon" />
                                             <p className='icon-text'>Provide <em className='text-highlight'>Contextual Information</em> With System Integrations</p>
                                         </div>
                                         <div className='col-md-1'></div>
                                         <div className='col-md-3'>
-                                            <img src="./img/boeing/learning.svg" alt="learning icon" />
+                                            <img className='icons' src="./img/boeing/learning.svg" alt="learning icon" />
                                             <p className='icon-text'>Increase <em className='text-highlight'>Ease of Use</em> Through a Learnable Design</p>
                                         </div>
                                     </div>

@@ -18,9 +18,9 @@ export default class About extends React.Component {
                         <div className='gutter'>
                             <img className='gutter' src="./img/profile.JPG" alt="me" />
                         </div>
-                        <h3 className='text-center p-4'>Hey there! Thanks for stopping by</h3>
+                        <h3 className='text-center forty-eight'>Hey there! Thanks for stopping by</h3>
                         {/* <p className='gutter text-center p-3'>My name is Wynston with a 'y'</p> */}
-                        <p className='gutter'>I'm a product designer with a passion for environmental
+                        <p className='gutter forty-eight'>I'm a product designer with a passion for environmental
                             sustainability and positive social change. I currently work at Boeing,
                             where I have the unique opportunity to impact the daily lives of its employees
                             by improving upon enterprise software and manufacturing processes.

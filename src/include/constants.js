@@ -17,7 +17,7 @@ export default {
         breez: "./img/breez/breez_banner.svg",
         weEatLogo: "./img/weEat/weeat-cover.png",
         weEat: "./img/weEat/weEat_banner.svg",
-        foodieLogo: "./img/foodie/foodie-cover",
+        foodieLogo: "./img/foodie/foodie-cover.png",
         foodie: "./img/foodie/ff_banner.png",
         ecoSnap: "./img/coding/ecosnap/EcoSnap.png",
         esBanner: "./img/coding/ecosnap/banner.png",
