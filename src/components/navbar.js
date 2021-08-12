@@ -87,7 +87,7 @@ export default class Navbar extends React.Component {
                             to={constants.routes.About}
                             onClick={() => this.changeActive("About")}>About</Link>
                         <a id='resume' className="nav-item nav-link"
-                            href="./wynston-hsu.pdf" target='_blank'>Resume</a>
+                            href="./wynston-hsu_resume_2021.pdf" target='_blank'>Resume</a>
                     </div>
                     <div id="contact-drawer" className="navbar-nav container">
                         <div id="contact" className="row">
