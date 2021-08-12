@@ -142,9 +142,9 @@ export default class Boeing extends React.Component {
                                     </div>
                                 </div>
                                 <div className='row forty-eight'>
-                                    <img className='col-md-4 align-middle' 
-                                        src='./img/boeing/Persona.png' 
-                                        alt='operations manager persona'/>
+                                    <div className='col-md-4 align-middle align-items-center'>
+                                        <img src='./img/boeing/Persona.png' alt='operations manager persona'/>
+                                    </div>
                                     <div className='col-md-8'>
                                         <p className='label'>GOALS</p>
                                         <p>Maintain structure and order on day-to-day operations by planning ahead.</p>
@@ -195,7 +195,7 @@ export default class Boeing extends React.Component {
                                     </p>
                                 </div>
                                 <div className='forty-eight'>
-                                    <img src='user-journey.png' alt='user journey map' />
+                                    <img src='./img/boeing/user-journey.png' alt='user journey map' />
                                 </div>
                                 <div className='break'>
                                     <h3 className='section-title'>The Approach</h3>
@@ -212,7 +212,7 @@ export default class Boeing extends React.Component {
                                     </p>
                                     <div className='row forty-eight'>
                                         <div className='col-md-3'>
-                                            <img src="./img/boeing/collaboration.svg" alt="collaboration icon" />
+                                            <img className='icons' src="./img/boeing/collaboration.svg" alt="collaboration icon" />
                                             <p className='icon-text'>Improve Planning <em className='text-highlight'>Efficiency</em> Through Real-Time Collaboration</p>
                                         </div>
                                         <div className='col-md-1'></div>

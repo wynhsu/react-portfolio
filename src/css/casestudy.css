@@ -57,6 +57,11 @@ div.title h1 {
     font-style: normal;
 }
 
+.icons {
+    display: block;
+    margin: auto;
+}
+
 .icon-text {
     text-align: center;
 }

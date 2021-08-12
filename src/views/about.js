@@ -13,20 +13,13 @@ export default class About extends React.Component {
         return (
             <div>
                 <Navbar pathname={this.props.location.pathname} />
-                <div id='quote'>
-                    <div className='spacing'>
-                        {/* <h4 className='text-center pb-4'>"If you aren't failing every now and then,
-                         you're probably playing it too safe."</h4>
-                        <h6 className='text-center'>Woody Allen</h6> */}
-                    </div>
+                <div>
                     <div className='spacing container'>
                         <div className='gutter'>
                             <img className='gutter' src="./img/profile.JPG" alt="me" />
                         </div>
                         <h3 className='text-center p-4'>Hey there! Thanks for stopping by</h3>
-                        <p className='gutter text-center p-3'>My name is Wynston - and yes, that's with a 'y' 
-                            <span role="img" aria-label="sheep"> 😎</span>
-                        </p>
+                        {/* <p className='gutter text-center p-3'>My name is Wynston with a 'y'</p> */}
                         <p className='gutter'>I'm a product designer with a passion for environmental
                             sustainability and positive social change. I currently work at Boeing,
                             where I have the unique opportunity to impact the daily lives of its employees
@@ -40,7 +33,7 @@ export default class About extends React.Component {
                             for us to grow as individuals.
                         </p>
                         <p className='gutter'>In my free time I enjoy immersing myself in works of fiction,
-                            whether it be movies, shows, or games. I am also learning to be a better cook
+                            whether it be movies, shows, or games. I am also learning to be a better cook 
                             by expanding my repertoire of vegetarian recipes.
                         </p>
                     </div>

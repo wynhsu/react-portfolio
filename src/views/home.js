@@ -61,12 +61,27 @@ export default class Home extends React.Component {
                     <div className='container'>
                         <div className="borders">
                             <h1 className="text-center">Hello! I'm Wynston.</h1>
-                            <h4 className="text-center p-4">I'm a Product Designer at Boeing and an alumni of UW Informatics.</h4>
+                            <h4 className="text-center p-4">I'm a Product Designer based in Seattle, Washington.</h4>
                         </div>
-                        <Card link={constants.images.boeing} route={constants.routes.Boeing} name={"boeing"} />
-                        <Card link={constants.images.breez} route={constants.routes.Breez} name={"breez"} />
-                        <Card link={constants.images.weEat} route={constants.routes.WeEat} name={"weEat"} />
-                        <Card link={constants.images.foodie} route={constants.routes.Foodie} name={"foodieFanatic"} />
+                        <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} />
+                    </div>
+                    <div className='container'>
+                        <div className="topSpacer">
+                            <div className="pt-5 pb-5">
+                                <h2 className="text-center">Projects</h2>
+                            </div>
+                            <div className="row">
+                                <div className="col-4">
+                                    <Card link={constants.images.breezLogo} route={constants.routes.Breez} name={"breez"} />
+                                </div>
+                                <div className="col-4">
+                                    <Card link={constants.images.weEatLogo} route={constants.routes.WeEat} name={"weEat"} />
+                                </div>
+                                <div className="col-4">
+                                    <Card link={constants.images.foodieLogo} route={constants.routes.Foodie} name={"foodieFanatic"} />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className='container'>
                         <div className="topSpacer">
