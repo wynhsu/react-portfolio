@@ -91,7 +91,7 @@ export default class Navbar extends React.Component {
                     </div>
                     <div id="contact-drawer" className="navbar-nav container">
                         <div id="contact" className="row">
-                            <Navitem link="mailto:wynhsu@uw.edu"
+                            <Navitem link="mailto:hsu.wynston@gmail.com"
                                 light="./img/contact/email-light.svg"
                                 dark="./img/contact/email-dark.svg" />
                             <Navitem link="https://www.linkedin.com/in/wynston-hsu/"
