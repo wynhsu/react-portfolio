@@ -12,7 +12,7 @@ export default {
     },
     images: {
         boeingLogo: "./img/boeing/boeing-cover.png",
-        boeing: "./img/boeing/pmc_banner.svg",
+        boeing: "./img/boeing/pmc_banner.png",
         breezLogo: "./img/breez/breez-cover.png",
         breez: "./img/breez/breez_banner.svg",
         weEatLogo: "./img/weEat/weeat-cover.png",

@@ -15,7 +15,7 @@ export default class Boeing extends React.Component {
                 <Navbar pathname={constants.routes.Work} />
                 <div>
                     <div className='title container'>
-                        <div className='row'>
+                        <div className='row row-cols-2'>
                             <div className='col-md-6'>
                                 <p>Boeing's Enterprise Solution to Daily Planning</p>
                                 <h1>Production Monitoring Console</h1>
