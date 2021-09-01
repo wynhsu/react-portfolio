@@ -246,7 +246,7 @@ export default class Boeing extends React.Component {
                                     </p>
                                     <p className='forty-eight'>My design goals for improving the manual adjustment of daily attendance were to:</p>
                                     <p>• Reduce the frequency of manual data entry</p>
-                                    <p>• Remove the barrier to entry from needing to know Excel macros</p>
+                                    <p>• Remove the barrier to entry from prior tribal knowledge</p>
                                     <p>• Improve information way finding by simplifying navigation </p>
                                     <p className='forty-eight'>I decided to go with a single-page view 
                                         as it was effective at consolidating the user’s information needs 
