@@ -68,29 +68,78 @@ export default class Home extends React.Component {
                     <div className='container'>
                         <div className="topSpacer">
                             <div className="pt-5 pb-5">
-                                <h2 className="text-center">Projects</h2>
+                                {/* <h2 className="text-center">Course Projects</h2> */}
                             </div>
                             <div className="row">
-                                <div className="col-4">
-                                    <Card link={constants.images.breezLogo} route={constants.routes.Breez} name={"breez"} />
-                                </div>
-                                <div className="col-4">
+                                <div className="col-12 col-md-5">
                                     <Card link={constants.images.weEatLogo} route={constants.routes.WeEat} name={"weEat"} />
                                 </div>
-                                <div className="col-4">
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-6">
+                                    <h3>WeEat</h3>
+                                    <h1>Two-sided marketplace between foodies and home chefs</h1>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12 col-md-6 text-right">
+                                    <h3>Breez</h3>
+                                    <h1>Mobile operating system for single-hand usage</h1>
+                                </div>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-5">
+                                    <Card link={constants.images.breezLogo} route={constants.routes.Breez} name={"breez"} />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12 col-md-5">
+                                    <Card link={constants.images.ecoSnap} route={constants.routes.EcoSnap} name={"ecoSnap"} />
+                                </div>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-6">
+                                    <h3>EcoSnap</h3>
+                                    <h1>Mobile app that tells you what can be recycled</h1>
+                                </div>
+                            </div>
+                            {/* <div className="row">
+                                <div className="col-12 col-md-6 text-right">
+                                    <h3>Foodie Fanatic</h3>
+                                    <h1>Mobile app redesign</h1>
+                                </div>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-5">
                                     <Card link={constants.images.foodieLogo} route={constants.routes.Foodie} name={"foodieFanatic"} />
                                 </div>
                             </div>
+                            <div className="row">
+                                <div className="col-12 col-md-5">
+                                    <Card link={constants.images.courtVision} route={constants.routes.CourtVision} name={"courtVision"} />
+                                </div>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-6">
+                                    <h3>CourtVisiom</h3>
+                                    <h1>Form your own team and compete in pick-up matches</h1>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-12 col-md-6 text-right">
+                                    <h3>Words With Friendz</h3>
+                                    <h1>Replicating the popular game - Words With Friends</h1>
+                                </div>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-5">
+                                    <Card link={constants.images.foodieLogo} route={constants.routes.Foodie} name={"foodieFanatic"} />
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className='container'>
                         <div className="topSpacer">
                             <div className="pt-5 pb-5">
-                                <h2 className="text-center">Coding</h2>
+                                <h2 className="text-center">More Projects</h2>
                             </div>
                             <div className="row">
                                 <div className="col-4">
-                                    <Card link={constants.images.ecoSnap} route={constants.routes.EcoSnap} name={"ecoSnap"} />
+                                    <Card link={constants.images.foodieLogo} route={constants.routes.Foodie} name={"foodieFanatic"} />
                                 </div>
                                 <div className="col-4">
                                     <Card link={constants.images.courtVision} route={constants.routes.CourtVision} name={"courtVision"} />
@@ -101,7 +150,7 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="topSpacer">
                             <div className="pt-5 pb-5">
                                 <h2 className="text-center">Gallery</h2>
@@ -149,7 +198,7 @@ export default class Home extends React.Component {
                                 <Photo link="./img/diets.png" name="Sustainability Infographic" onClick={() => this.onImgClick(5)} alt="infographic" />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <Footer />
             </div>

@@ -26,11 +26,11 @@ export default class WeEat extends React.Component {
             <div>
                 <Navbar pathname={constants.routes.Work} />
                 <div>
-                    <div className='header'>
+                    {/* <div className='header'>
                         <h3 className='text-center'>WeEat</h3>
                         <p className='text-center'>An easy, convenient way to authentic cuisines provided
                             by experienced local chefs</p>
-                    </div>
+                    </div> */}
                     <Navbtns />
                     <div className='banner'>
                         <img src={constants.images.weEat} alt="banner" />
@@ -79,7 +79,7 @@ export default class WeEat extends React.Component {
                         <h3 className='font-weight-light'>Background</h3>
                         <p>WeEat is a service platform designed for the rapid prototyping course in the
                             Informatics department at the University of Washington. The product leverages
-                            the two-way marketplace between food lovers and home chefs to facilitate a
+                            the two-way marketplace between foodies and home chefs to facilitate a
                             unique culinary experience through dining. The project was divided into five
                             sprints, with the final deliverable being a pitch deck and a prototype demo
                             to a panel of professional designers. As one of the five UX designers on
@@ -157,7 +157,7 @@ export default class WeEat extends React.Component {
                         <h3 className='font-weight-light'>User Flow</h3>
                         <img className='d-block ml-auto mr-auto pb-4'
                             src="./img/weEat/user_flow_user.png" alt="user_flow" />
-                        <p className='caption text-center'>User Flow for Food Lovers</p>
+                        <p className='caption text-center'>User Flow for Foodies</p>
                     </div>
                     <div className='spacing container'>
                         <h3 className='font-weight-light'>Service Map</h3>
@@ -175,7 +175,7 @@ export default class WeEat extends React.Component {
                         <h3 className='font-weight-light'>Usability Testing</h3>
                         <div className='row pb-4'>
                             <div className='col-md-8'>
-                                <h5>Food Lover</h5>
+                                <h5>Foodies</h5>
                                 <p>We were able to identify a handful of issues regarding the app’s
                                     details and flow. Aside from functional errors with the prototype,
                                     the general consensus was that the app currently felt too similar
@@ -213,7 +213,7 @@ export default class WeEat extends React.Component {
                         <h3 className='font-weight-light'>Prototypes</h3>
                         <div className='row'>
                             <div className='pb-4 col-md-6 text-center'>
-                                <h5 className='text-center'>Food Lover</h5>
+                                <h5 className='text-center'>Foodie</h5>
                                 {/* <a href="https://invis.io/A3N1N20KY2P" 
                                     target='_blank' alt="food lover prototype">Click here!</a> */}
                                 <Iframe className="mr-auto ml-auto" 
