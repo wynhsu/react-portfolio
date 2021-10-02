@@ -25,11 +25,7 @@ export default class Breez extends React.Component {
             <div>
                 <Navbar pathname={constants.routes.Work} />
                 <div>
-                    <div className='header'>
-                        <h3 className='text-center'>Breez Mobile OS</h3>
-                        <p className='text-center'>A language inspired by people and in harmony with nature</p>
-                    </div>
-                    <Navbtns />
+                    {/* <Navbtns /> */}
                     <div className='banner'>
                         <img src={constants.images.breez} alt="banner" />
                     </div>

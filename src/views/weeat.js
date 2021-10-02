@@ -26,12 +26,7 @@ export default class WeEat extends React.Component {
             <div>
                 <Navbar pathname={constants.routes.Work} />
                 <div>
-                    {/* <div className='header'>
-                        <h3 className='text-center'>WeEat</h3>
-                        <p className='text-center'>An easy, convenient way to authentic cuisines provided
-                            by experienced local chefs</p>
-                    </div> */}
-                    <Navbtns />
+                    {/* <Navbtns /> */}
                     <div className='banner'>
                         <img src={constants.images.weEat} alt="banner" />
                     </div>

@@ -61,12 +61,23 @@ export default class Home extends React.Component {
                     <div className='container'>
                         <div className="borders">
                             <h1 className="text-center">Hello! I'm Wynston.</h1>
-                            <h4 className="text-center p-4">I'm a Product Designer based in Seattle, Washington.</h4>
+                            <h3 className="text-center">I'm a Product Designer based in Seattle, Washington.</h3>
                         </div>
-                        <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} />
+                        {/* <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} /> */}
                     </div>
                     <div className='container'>
                         <div className="topSpacer">
+                            <div className="row">
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-5 text-right">
+                                    <h4>Boeing</h4>
+                                    <h2>Mobile operating system for single-hand usage</h2>
+                                </div>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-5">
+                                    <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} />
+                                </div>
+                            </div>
                             <div className="pt-5 pb-5">
                                 {/* <h2 className="text-center">Course Projects</h2> */}
                             </div>
@@ -75,30 +86,35 @@ export default class Home extends React.Component {
                                     <Card link={constants.images.weEatLogo} route={constants.routes.WeEat} name={"weEat"} />
                                 </div>
                                 <div className="col-12 col-md-1"></div>
-                                <div className="col-12 col-md-6">
-                                    <h3>WeEat</h3>
-                                    <h1>Two-sided marketplace between foodies and home chefs</h1>
+                                <div className="col-12 col-md-5">
+                                    <h4>WeEat</h4>
+                                    <h2>Two-sided marketplace between foodies and home chefs</h2>
                                 </div>
+                                <div className="col-12 col-md-1"></div>
                             </div>
+                            <div className="pt-5 pb-5"></div>
                             <div className="row">
-                                <div className="col-12 col-md-6 text-right">
-                                    <h3>Breez</h3>
-                                    <h1>Mobile operating system for single-hand usage</h1>
+                                <div className="col-12 col-md-1"></div>
+                                <div className="col-12 col-md-5 text-right">
+                                    <h4>Breez</h4>
+                                    <h2>Mobile operating system for single-hand usage</h2>
                                 </div>
                                 <div className="col-12 col-md-1"></div>
                                 <div className="col-12 col-md-5">
                                     <Card link={constants.images.breezLogo} route={constants.routes.Breez} name={"breez"} />
                                 </div>
                             </div>
+                            <div className="pt-5 pb-5"></div>
                             <div className="row">
                                 <div className="col-12 col-md-5">
                                     <Card link={constants.images.ecoSnap} route={constants.routes.EcoSnap} name={"ecoSnap"} />
                                 </div>
                                 <div className="col-12 col-md-1"></div>
-                                <div className="col-12 col-md-6">
-                                    <h3>EcoSnap</h3>
-                                    <h1>Mobile app that tells you what can be recycled</h1>
+                                <div className="col-12 col-md-5">
+                                    <h4>EcoSnap</h4>
+                                    <h2>Mobile app that tells you what can be recycled</h2>
                                 </div>
+                                <div className="col-12 col-md-1"></div>
                             </div>
                             {/* <div className="row">
                                 <div className="col-12 col-md-6 text-right">

@@ -26,12 +26,7 @@ export default class Foodie extends React.Component {
             <div>
                 <Navbar pathname={constants.routes.Work} />
                 <div>
-                    <div className='header'>
-                        <h3 className='text-center'>Foodie Fanatic</h3>
-                        <p className='text-center'>Bridging the gap between users and company through
-                         culinary satisfaction</p>
-                    </div>
-                    <Navbtns />
+                    {/* <Navbtns /> */}
                     <div className='banner'>
                         <img src={constants.images.foodie} alt="banner" />
                     </div>
