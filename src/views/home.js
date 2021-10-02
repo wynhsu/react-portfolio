@@ -63,21 +63,21 @@ export default class Home extends React.Component {
                             <h1 className="text-center">Hello! I'm Wynston.</h1>
                             <h3 className="text-center">I'm a Product Designer based in Seattle, Washington.</h3>
                         </div>
-                        {/* <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} /> */}
+                        <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} />
                     </div>
                     <div className='container'>
                         <div className="topSpacer">
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-12 col-md-1"></div>
                                 <div className="col-12 col-md-5 text-right">
                                     <h4>Boeing</h4>
-                                    <h2>Mobile operating system for single-hand usage</h2>
+                                    <h2>Enterprise web application for daily planning</h2>
                                 </div>
                                 <div className="col-12 col-md-1"></div>
                                 <div className="col-12 col-md-5">
                                     <Card link={constants.images.boeingLogo} route={constants.routes.Boeing} name={"boeing"} />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="pt-5 pb-5">
                                 {/* <h2 className="text-center">Course Projects</h2> */}
                             </div>
